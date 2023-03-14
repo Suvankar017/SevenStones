@@ -1,0 +1,1174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20230306 - 121654
+  m_EditorClassIdentifier: 
+  m_name: Session 20230306-121654
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 06-03-2023 12:16:54
+  m_terrainWidth: 1024
+  m_terrainDepth: 1024
+  m_terrainHeight: 1024
+  m_seaLevel: 75
+  m_spawnDensity: 1
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations:
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 06-03-2023 12:22:15
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 1024'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 12:22:16
+    scriptableObjectAssetGUID: aa8609792ce168b4d881da526dbe7cae
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 12:31:07
+    scriptableObjectAssetGUID: 6400b6d54cebd5d43abd1822981f1e4f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 12:41:26
+    scriptableObjectAssetGUID: 34cd7dabc53938a429b0e021ce0ab665
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 12:43:44
+    scriptableObjectAssetGUID: 6d1fa0e5531b8994f936cc700fdb29d4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 12:44:57
+    scriptableObjectAssetGUID: dc55e71ceadb1d548b895cbbc9a4b75e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 12:48:30
+    scriptableObjectAssetGUID: e1bd5ff42f825304cbd81c6b6f8df90c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 12:53:31
+    scriptableObjectAssetGUID: 05080ab48a4a1b7488471d1a728a8ecd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 14:07:41
+    scriptableObjectAssetGUID: f840b4b483e359c4889a1f0d4b5f612c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 14:10:00
+    scriptableObjectAssetGUID: f9782ae17e593d2498f2b57acfee0bf7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 14:24:53
+    scriptableObjectAssetGUID: 5cb2fd3f07af34c48ad71c3c391b63a7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 14:35:02
+    scriptableObjectAssetGUID: 9c70bd0b4efa637429fd6203836ee7d4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 14:37:20
+    scriptableObjectAssetGUID: 20f9042fd881c0f4888a3cdf93440296
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 14:41:45
+    scriptableObjectAssetGUID: 769f2d667b051204eab6964d457e315e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 16:38:51
+    scriptableObjectAssetGUID: 7823d6b81bb598c419408f211d5fafbd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 16:41:25
+    scriptableObjectAssetGUID: 6e20e5c5b0103a64abcb89dfcf6511a5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 16:41:43
+    scriptableObjectAssetGUID: f2e3f566d2d08f049a8cb359c3aa70db
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 16:42:06
+    scriptableObjectAssetGUID: be8b03e0ee8e929418a429c81c0f3f58
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 19:23:00
+    scriptableObjectAssetGUID: 9aa2cb591c7120140996bedcceba0896
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: LowerHeight - 2k River 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 19:58:44
+    scriptableObjectAssetGUID: 4f257195ab4ee034ba16319d4502f01f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: LowerHeight - 2k River 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 19:59:47
+    scriptableObjectAssetGUID: 5518c278620af604f932504b3c0d824c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 20:00:47
+    scriptableObjectAssetGUID: 8c61d0f6e9eadd343825b47ff78e479a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: LowerHeight - 2k River 3
+    m_operationType: 4
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 20:15:03
+    scriptableObjectAssetGUID: 4c06cff67ddea65449ec63827a3b9d38
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 20:21:50
+    scriptableObjectAssetGUID: f0e448ecd253d4048ae8ab6ea2f9e21d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 21:36:27
+    scriptableObjectAssetGUID: 9c50423685224da49b0e8e8b934b4801
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:05:33
+    scriptableObjectAssetGUID: faa8384f4a2c5d244a729e22d4ff47bd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:07:48
+    scriptableObjectAssetGUID: 99d7aee60d7865e46becc63cce237b00
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:09:16
+    scriptableObjectAssetGUID: 8a4ddb2dace8ec941957ca88860b85b7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:29:58
+    scriptableObjectAssetGUID: a3c8c4324ef509c47af8a5310840a593
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:31:29
+    scriptableObjectAssetGUID: 872d998a69a3b5e4fbe7054ab4ba2c12
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:31:38
+    scriptableObjectAssetGUID: 4461ca02e8e292a40945e2a8eda3c8de
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:32:20
+    scriptableObjectAssetGUID: 026fff7752d1e3d4bb0febeea308fbff
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:35:03
+    scriptableObjectAssetGUID: a21f197b7ecdfc244977883a32bf4a59
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 22:38:36
+    scriptableObjectAssetGUID: 3efe12cd39aa8594eb02c64e83fba050
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 23:10:50
+    scriptableObjectAssetGUID: 350f3dd628137264580165bf69373b6c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 23:27:01
+    scriptableObjectAssetGUID: 788b75b7414f6f847929399c3de457d1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 06-03-2023 23:34:14
+    scriptableObjectAssetGUID: 839aa1554af9ddb49b5772ee6b7f86ae
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 07-03-2023 11:06:14
+    scriptableObjectAssetGUID: fc117ea45fcaf414fb22b96bfcc5d65e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 07-03-2023 14:05:07
+    scriptableObjectAssetGUID: 08dba43c0e998a240a52614e371158f2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 07-03-2023 14:05:21
+    scriptableObjectAssetGUID: 80d7164b10726c94a8b989d5e80e414a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 07-03-2023 14:06:08
+    scriptableObjectAssetGUID: c0089ca40ec906a43a926f9cc8bc7825
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 07-03-2023 14:06:54
+    scriptableObjectAssetGUID: d3dd9690b644ecf4e9b827a5e6003977
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 07-03-2023 14:07:11
+    scriptableObjectAssetGUID: 4ca16c6345ef49848923bd6b8e10573e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 07-03-2023 14:22:23
+    scriptableObjectAssetGUID: 912d053a1c6981a4e8cab44ad39dc2a6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 08-03-2023 08:45:59
+    scriptableObjectAssetGUID: 62ed3c91d7e7fad479de7e5a54ce8d7e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 08-03-2023 08:52:01
+    scriptableObjectAssetGUID: 9dbf1f083da6ba345a79c47d2ca243c2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 08-03-2023 10:05:07
+    scriptableObjectAssetGUID: 840a613649f435e4faab264e63dc3845
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 09-03-2023 20:04:28
+    scriptableObjectAssetGUID: 8ec13dfcf7ab0b94199b5e3303362b93
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 00:10:31
+    scriptableObjectAssetGUID: bf41c3aafd7e9d84a9717feccdce7173
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 00:17:21
+    scriptableObjectAssetGUID: 28f068f4da92e9f45bf9634e79b10215
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 00:19:50
+    scriptableObjectAssetGUID: 3bbf6e37e36b8cc4cb8cc39dd236c692
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 00:22:31
+    scriptableObjectAssetGUID: d25667fb2a3ba9947aee0cb540519f41
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 00:40:39
+    scriptableObjectAssetGUID: db950c8e546e023409abfc73d2befab6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 00:43:02
+    scriptableObjectAssetGUID: 6550477f3fd20e542b505a1df0abd39c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 00:51:22
+    scriptableObjectAssetGUID: 74169f7f96666ff4e87502b59f90d00c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 01:03:58
+    scriptableObjectAssetGUID: e95bfc24af7411f42919f979aa3cd3b4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 01:05:21
+    scriptableObjectAssetGUID: 746c6cbfaa73688408840cbf5cbb310c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 01:12:10
+    scriptableObjectAssetGUID: ce4db6acd9f52154584491aeec9fe931
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 01:17:02
+    scriptableObjectAssetGUID: 06a34c446b8e5be4b956854255127028
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 01:23:05
+    scriptableObjectAssetGUID: 847ab65189874c143a51405227fa63a6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 01:25:24
+    scriptableObjectAssetGUID: dedffbd271855c84bab430ad7231ef43
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 01:27:19
+    scriptableObjectAssetGUID: c56d60774d6848d4ba874d7efc01adb5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 09:42:00
+    scriptableObjectAssetGUID: 258fab8b418f92b4c8c693973226fcb5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 10:08:40
+    scriptableObjectAssetGUID: 026457f605369984db0868cc1df506da
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 15:46:10
+    scriptableObjectAssetGUID: 3b94828e4e3b87d45a99fa1a9314ac1c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 15:53:40
+    scriptableObjectAssetGUID: b3f971a077591c340a4890c96c3d1838
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 16:07:12
+    scriptableObjectAssetGUID: 561dc54cb0cef484b8e43edc6fa02b58
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 17:13:31
+    scriptableObjectAssetGUID: 9b814f55d5d453a4b9dfc30f145603a2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 17:14:40
+    scriptableObjectAssetGUID: b59abebdb5c4113459e09d0268ca9be2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 17:16:24
+    scriptableObjectAssetGUID: 314d7c65338970e46837b6eb56e2a4d9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 17:18:46
+    scriptableObjectAssetGUID: 94822925009fe7e47bffdf829341e375
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 23:42:28
+    scriptableObjectAssetGUID: 2ab60d1da6c54da4c9fe95c0b2e4a237
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 23:43:06
+    scriptableObjectAssetGUID: d2e41e83260aba041a789881d2191eaa
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 10-03-2023 23:48:38
+    scriptableObjectAssetGUID: 9b0a667467c92cf4c81ff4e5808679af
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 00:32:12
+    scriptableObjectAssetGUID: a7a102388b67a504c9ad43dc9f373e0c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 09:55:00
+    scriptableObjectAssetGUID: 3ac112283c26c994bb5420b2686d7777
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 09:59:45
+    scriptableObjectAssetGUID: 2525c43faccc42940a01741c4b32aaf0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:03:13
+    scriptableObjectAssetGUID: aec0e8f8aeacdbe4b81328820485385e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:07:02
+    scriptableObjectAssetGUID: 8ec168671d915894bac1f41f4a89281a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:14:27
+    scriptableObjectAssetGUID: 27c1c89c7c4e9b24997d14ad0422c537
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:15:51
+    scriptableObjectAssetGUID: 3cc9fb0c8f155b24084225d941416c62
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:16:25
+    scriptableObjectAssetGUID: 5d126a3b76d60b14cb46e45b6e8cfe02
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:17:37
+    scriptableObjectAssetGUID: 4cf232b47d9d48d438f537d33f93280c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:18:19
+    scriptableObjectAssetGUID: 373ff0b553bd0c4469628427958ad1e9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:24:08
+    scriptableObjectAssetGUID: 73e52789773df0649a82f6e4a0be8e07
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 10:59:47
+    scriptableObjectAssetGUID: 701b01ebe3ee8c6459e9a4621ff92844
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:01:57
+    scriptableObjectAssetGUID: ccb15b43cd8a1c34aa76d45ea39d242f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:02:09
+    scriptableObjectAssetGUID: 845bc3fc77584ba479a7c3182753e600
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:02:37
+    scriptableObjectAssetGUID: c06d65da4f8498348a4281bbd9921af0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:02:40
+    scriptableObjectAssetGUID: 579d0703473e8ce4f9303ae2edff0a63
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:03:35
+    scriptableObjectAssetGUID: dc7286f9d199bb046b8c2a64f5fd7136
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:03:54
+    scriptableObjectAssetGUID: c6a24fdfdc684214595d012374bc0267
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:04:04
+    scriptableObjectAssetGUID: fda6b8318ef61a24ca1c4a4688a75539
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:04:16
+    scriptableObjectAssetGUID: b8b7a69e266d1d34b8ae134b1f4742e8
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:04:49
+    scriptableObjectAssetGUID: 083b69b013a24c345a6fdde437c87299
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:04:57
+    scriptableObjectAssetGUID: 346b8a30641caae4380a002d584a6cf7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - (Clone)(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 11:05:16
+    scriptableObjectAssetGUID: 4e55f3dbca470ec4182f530e1ca4165e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20230306 - 122216
+    m_operationDateTime: 11-03-2023 16:30:45
+    scriptableObjectAssetGUID: 555c163d7b5918443a0734b6c8f06ab4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 11-03-2023 17:18:46
+    scriptableObjectAssetGUID: 663bb21eb0ca6c24c8de83a6491a6bc7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 11-03-2023 17:21:54
+    scriptableObjectAssetGUID: d9bc2b19d7911fc4fbb5446559f30328
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 11-03-2023 17:23:36
+    scriptableObjectAssetGUID: 4403cfdfc8b3da247910a1f2f7e31fcd
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 11-03-2023 17:24:08
+    scriptableObjectAssetGUID: 39b1ac72ead3a984f8fec66711d73eb9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  m_terrainMinMaxCache:
+  - guid: 4ccb802fb14ee8d43939d864303df8eb
+    isWorldmap: 0
+    recalculate: 0
+    min: 98.032745
+    max: 438.88168
+  - guid: Worldmap
+    isWorldmap: 1
+    recalculate: 0
+    min: 120.65268
+    max: 261.52664
+  m_bakedMaskCacheEntries:
+  - fileName: Desert_LayerGameObject_3584_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3584_0
+    fullPath: G:/Programs/Unity/Des/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3584_0
+    texture: {fileID: 0}
+  - fileName: Desert_LayerGameObject_3600_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
+    fullPath: G:/Programs/Unity/Des/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
+    texture: {fileID: 0}
+  m_worldBiomeMaskSettings: {fileID: 0}
