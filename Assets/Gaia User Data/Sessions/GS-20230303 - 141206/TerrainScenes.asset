@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da50733ca13d24f45a2980dcd5a56ed5, type: 3}
+  m_Name: TerrainScenes
+  m_EditorClassIdentifier: 
+  m_terrainLoadingEnabled: 1
+  m_showTerrainLoadingDisabledWarning: 1
+  m_useAddressables: 0
+  m_preloadAddressablesWithImpostors: 1
+  m_colliderOnlyLoading: 0
+  m_terrainTilesX: 3
+  m_terrainTilesZ: 3
+  m_terrainTilesSize: 2048
+  m_useFloatingPointFix: 1
+  m_hasWorldMap: 1
+  m_worldMaprelativeSize: 0.5
+  m_worldMapRelativeHeightmapPixels: 1
+  m_worldMapPreviewHeightmapResolution: 2049
+  m_worldMapPreviewRange: 1024
+  m_worldMapPreviewTerrainHeight: 1024
+  m_terrainScenes:
+  - m_pos:
+      x: -3072
+      y: 0
+      z: -3072
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: -2048
+        y: 0
+        z: -2048
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_0_0-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839739729
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 0
+    m_stitchedEastBorder: 1
+    m_stitchedSouthBorder: 0
+    m_stitchedNorthBorder: 1
+  - m_pos:
+      x: -3072
+      y: 0
+      z: -1024
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: -2048
+        y: 0
+        z: 0
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_0_1-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839746359
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 0
+    m_stitchedEastBorder: 1
+    m_stitchedSouthBorder: 1
+    m_stitchedNorthBorder: 1
+  - m_pos:
+      x: -3072
+      y: 0
+      z: 1024
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: -2048
+        y: 0
+        z: 2048
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_0_2-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839753024
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 0
+    m_stitchedEastBorder: 1
+    m_stitchedSouthBorder: 1
+    m_stitchedNorthBorder: 0
+  - m_pos:
+      x: -1024
+      y: 0
+      z: -3072
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: 0
+        y: 0
+        z: -2048
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_1_0-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839759674
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 1
+    m_stitchedEastBorder: 1
+    m_stitchedSouthBorder: 0
+    m_stitchedNorthBorder: 1
+  - m_pos:
+      x: -1024
+      y: 0
+      z: -1024
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: 0
+        y: 0
+        z: 0
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_1_1-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839766327
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 1
+    m_stitchedEastBorder: 0
+    m_stitchedSouthBorder: 1
+    m_stitchedNorthBorder: 0
+  - m_pos:
+      x: -1024
+      y: 0
+      z: 1024
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: 0
+        y: 0
+        z: 2048
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_1_2-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839772979
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 1
+    m_stitchedEastBorder: 0
+    m_stitchedSouthBorder: 0
+    m_stitchedNorthBorder: 0
+  - m_pos:
+      x: 1024
+      y: 0
+      z: -3072
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: 2048
+        y: 0
+        z: -2048
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_2_0-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839779626
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 1
+    m_stitchedEastBorder: 0
+    m_stitchedSouthBorder: 0
+    m_stitchedNorthBorder: 1
+  - m_pos:
+      x: 1024
+      y: 0
+      z: -1024
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: 2048
+        y: 0
+        z: 0
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_2_1-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839786280
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 0
+    m_stitchedEastBorder: 0
+    m_stitchedSouthBorder: 1
+    m_stitchedNorthBorder: 0
+  - m_pos:
+      x: 1024
+      y: 0
+      z: 1024
+    m_currentOriginOffset:
+      x: 0
+      y: 0
+      z: 0
+    m_bounds:
+      m_Center:
+        x: 2048
+        y: 0
+        z: 2048
+      m_Extents:
+        x: 1024
+        y: 1024
+        z: 1024
+    m_scenePath: Assets/Gaia User Data/Sessions/GS-20230303 - 141206/Terrain Scenes/Terrain_2_2-20230303
+      - 153223.unity
+    m_impostorScenePath: 
+    m_backupScenePath: 
+    m_colliderScenePath: 
+    m_regularLoadState: 0
+    m_impostorLoadState: 2
+    m_useFloatingPointFix: 1
+    m_nextUpdateTimestamp: 0
+    m_regularLoadRequested: 0
+    m_regularUnloadRequested: 0
+    m_impostorLoadRequested: 0
+    m_impostorUnloadRequested: 0
+    m_isFoldedOut: 0
+    m_regularCachedTimestamp: 1677839732727
+    m_impostorCachedTimestamp: 0
+    m_stitchedWestBorder: 0
+    m_stitchedEastBorder: 0
+    m_stitchedSouthBorder: 0
+    m_stitchedNorthBorder: 0
+  m_deactivateRuntimePlayer: 0
+  m_deactivateRuntimeLighting: 0
+  m_deactivateRuntimeAudio: 0
+  m_deactivateRuntimeWeather: 0
+  m_deactivateRuntimeWater: 0
+  m_deactivateRuntimeScreenShotter: 0
