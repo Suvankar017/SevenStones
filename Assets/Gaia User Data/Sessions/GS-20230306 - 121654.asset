@@ -1702,6 +1702,251 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:41:39
+    scriptableObjectAssetGUID: 100b9479dda67f949b64a307390ea60c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:42:12
+    scriptableObjectAssetGUID: 963b9cc764886d54d9d92dce45d59407
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:44:46
+    scriptableObjectAssetGUID: d42631af923ea874eafa15d0762bdbfc
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:44:58
+    scriptableObjectAssetGUID: 549cd71c904e3a347bf869745b96d9e3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:46:44
+    scriptableObjectAssetGUID: 9f0849f6892fa7643af011095758687e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:46:49
+    scriptableObjectAssetGUID: a70f247e1eed59a4e865df1e0c900033
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:47:54
+    scriptableObjectAssetGUID: 46f19149e1b2a6a4cbed46b62e87bd83
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:48:03
+    scriptableObjectAssetGUID: d9e515292951bf2458b5a609a451c136
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:51:28
+    scriptableObjectAssetGUID: a908c78685b072b48a93a41715101e85
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:51:37
+    scriptableObjectAssetGUID: 314528b446403be40b5589f7595a3ee4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:52:47
+    scriptableObjectAssetGUID: f434c29c41ac125408c8d77604f66eec
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:55:08
+    scriptableObjectAssetGUID: 3ceb2aee37d61584ba91fea0ef252903
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:55:29
+    scriptableObjectAssetGUID: fc48152d9a716aa42aff136a14d7a0e6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:56:07
+    scriptableObjectAssetGUID: 06071bedafaa2dd4da42ea56e6a4bea0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 01:56:56
+    scriptableObjectAssetGUID: 677ce1aed5361c44c9e18333387e71c9
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (5)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 02:08:42
+    scriptableObjectAssetGUID: 47462290e1cff58488fbef7f6be10116
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 02:09:53
+    scriptableObjectAssetGUID: bad25063612ab0249be3a447b4d6fc6d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 02:10:24
+    scriptableObjectAssetGUID: 9e275f1d01ae7fb4a9f6cff32ce4cb0c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 02:13:43
+    scriptableObjectAssetGUID: ff53a71723572764e801bc0515ebd264
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 02:14:57
+    scriptableObjectAssetGUID: f191bdd43ca0b774ba09b66678f73304
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 02:15:49
+    scriptableObjectAssetGUID: 2354ce0c2a8091a46a83b7613abedb32
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 02:18:35
+    scriptableObjectAssetGUID: 63157f886fd344042b47b11848bca220
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
