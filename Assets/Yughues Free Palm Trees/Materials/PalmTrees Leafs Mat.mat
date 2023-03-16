@@ -132,9 +132,9 @@ Material:
     - _PW_CoverLayer0Color: {r: 1, g: 1, b: 1, a: 0}
     - _PW_CoverLayer1Color: {r: 1, g: 1, b: 1, a: 0}
     - _PW_SSSTint: {r: 1, g: 1, b: 1, a: 0}
-    - _PW_WindTreeFlex: {r: 0.1, g: 0.1, b: 0.1, a: 0}
-    - _PW_WindTreeFrequency: {r: 0.05, g: 0.05, b: 0.05, a: 0}
-    - _PW_WindTreeWidthHeight: {r: 1, g: 0.2, b: 0, a: 0}
+    - _PW_WindTreeFlex: {r: 1.15, g: 0.15, b: 0.1, a: 0}
+    - _PW_WindTreeFrequency: {r: 0.25, g: 0.5, b: 1.3, a: 0}
+    - _PW_WindTreeWidthHeight: {r: 0.5, g: 1, b: 0, a: 0}
     - _PW_WorldMapColorCover0: {r: 1, g: 1, b: 1, a: 1}
     - _PW_WorldMapColorCover1: {r: 1, g: 1, b: 1, a: 1}
     - _PW_WorldMapColorObject: {r: 1, g: 1, b: 1, a: 1}

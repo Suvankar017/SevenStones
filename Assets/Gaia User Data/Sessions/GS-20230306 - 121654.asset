@@ -2295,6 +2295,270 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (3)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:13:15
+    scriptableObjectAssetGUID: fddb2af9c17bb0447b1fa5c4697b212d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:17:58
+    scriptableObjectAssetGUID: 382fd87cff370e24a93eb68c188ba5d0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (3)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:21:25
+    scriptableObjectAssetGUID: a475c572d73e5a4469520495fc07d87c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:22:59
+    scriptableObjectAssetGUID: 66d926c410fb370428278638908edce3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:23:29
+    scriptableObjectAssetGUID: 7f4878aa6a956084699f499a8ccae4b5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:51:20
+    scriptableObjectAssetGUID: 7b2742a09af50154a89bb44a96a9cc1a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:51:39
+    scriptableObjectAssetGUID: 8162a50c87e0a1248b4f47ec53e272a6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (3)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 15-03-2023 23:54:53
+    scriptableObjectAssetGUID: e041b0d13f5ceff4f84a87670f900f72
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:17:10
+    scriptableObjectAssetGUID: 64701f0feea98f94b8e385e87fe50714
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:17:15
+    scriptableObjectAssetGUID: 573fd8968b08296488aa2ec01bf97814
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:31:33
+    scriptableObjectAssetGUID: 4b6e80300c0a07047b62f2c50529eb53
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (3)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:31:50
+    scriptableObjectAssetGUID: 6547799fa8340ea45a5414acece08771
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:33:27
+    scriptableObjectAssetGUID: cd123db960d46724b9692f1c6a2080b6
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (3)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:33:37
+    scriptableObjectAssetGUID: 65b74ec948f383e41b07a698ac25cb46
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (3)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:34:14
+    scriptableObjectAssetGUID: ec28641d8d2e486409f65bea0574bdf0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:35:56
+    scriptableObjectAssetGUID: bd6b5659959a15047a84b7d898718a77
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:36:35
+    scriptableObjectAssetGUID: 1fa5dc2b436afd94d9b034a333410b64
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:36:55
+    scriptableObjectAssetGUID: f7be4574a9d60b642a5c3d4a3edaecc7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:37:00
+    scriptableObjectAssetGUID: 81f22f0cffd4b204dab78ffb74282e70
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:37:21
+    scriptableObjectAssetGUID: c67d9fe55ce512c4f92e2ba14c0abba4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:37:29
+    scriptableObjectAssetGUID: fa68738d7656cfc45af1f15ae598635b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:37:59
+    scriptableObjectAssetGUID: 1f9b03e1f0a67674eba9d78dbc6c84ec
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:40:01
+    scriptableObjectAssetGUID: 9c755b1b86706584b807a7d5f120f4ad
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - PalmTreeSpawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 16-03-2023 00:44:30
+    scriptableObjectAssetGUID: beef3d1c1b1ba5b4a9613e6d2d9af1a1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
@@ -2307,12 +2571,8 @@ MonoBehaviour:
     min: 0
     max: 0
   m_bakedMaskCacheEntries:
-  - fileName: Desert_LayerGameObject_3600_0
-    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
-    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
-    texture: {fileID: 0}
-  - fileName: Desert_LayerGameObject_16_0
-    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_16_0
-    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_16_0
+  - fileName: Desert_LayerTree_3600_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerTree_3600_0
+    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerTree_3600_0
     texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
