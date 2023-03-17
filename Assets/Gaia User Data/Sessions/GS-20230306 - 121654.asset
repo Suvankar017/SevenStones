@@ -1947,6 +1947,116 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 10:59:25
+    scriptableObjectAssetGUID: 9a2b14eb3f849f74b99b6ddf7b944db1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:00:01
+    scriptableObjectAssetGUID: 595f2feea38907e4bad9de5fbf7c5688
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:00:36
+    scriptableObjectAssetGUID: df62648dbe5fa1944989e415a1271680
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:04:17
+    scriptableObjectAssetGUID: 2d6d9b6e95a302a429c76c601306adba
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:05:57
+    scriptableObjectAssetGUID: cbf153a372f502047bf07d6959bca26a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:06:20
+    scriptableObjectAssetGUID: 262891b1c5eede24fb99b779579a5350
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:08:16
+    scriptableObjectAssetGUID: 14673c28135a33f46916929f3d71a44f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:47:20
+    scriptableObjectAssetGUID: 57faf60417552514dbf392f1ff1feb18
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Spawning - '
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:48:18
+    scriptableObjectAssetGUID: ba32db9bbea97074a9c092c248467aaf
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 17-03-2023 11:48:38
+    scriptableObjectAssetGUID: 93919136f74fac94cb53757671f4a51d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
