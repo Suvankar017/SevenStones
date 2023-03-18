@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3082473706082272587}
   - component: {fileID: 7826475672310297146}
-  - component: {fileID: -3964846568357959140}
+  - component: {fileID: 3682998452572646521}
   m_Layer: 10
   m_Name: cactus4
   m_TagString: Untagged
@@ -68,8 +68,8 @@ LODGroup:
     renderers:
     - renderer: {fileID: 464789891846515327}
   m_Enabled: 1
---- !u!136 &-3964846568357959140
-CapsuleCollider:
+--- !u!65 &3682998452572646521
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -78,10 +78,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.25
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.5, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 2.030107, y: 2.7217505, z: 1.9712436}
+  m_Center: {x: 0.01471591, y: 1.3759288, z: 0.16187397}
 --- !u!1 &3735933911755919405
 GameObject:
   m_ObjectHideFlags: 0

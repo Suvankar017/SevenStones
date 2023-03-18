@@ -176,7 +176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5160021185285897562}
   - component: {fileID: 127803128001727019}
-  - component: {fileID: -68867760431850231}
+  - component: {fileID: 7040894852554981355}
   m_Layer: 9
   m_Name: cactus1
   m_TagString: Untagged
@@ -217,11 +217,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.601597
+  - screenRelativeHeight: 0.37937617
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 6407643226927980623}
-  - screenRelativeHeight: 0.27745003
+  - screenRelativeHeight: 0.1860873
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 7298972963017526438}
@@ -234,8 +234,8 @@ LODGroup:
     renderers:
     - renderer: {fileID: 8302054647398325743}
   m_Enabled: 1
---- !u!136 &-68867760431850231
-CapsuleCollider:
+--- !u!65 &7040894852554981355
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -244,10 +244,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.25
-  m_Height: 3
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.9871774, y: 2.027359, z: 0.61887306}
+  m_Center: {x: -0.037968397, y: 1.0199239, z: 0.01193437}
 --- !u!1 &8004928994127589578
 GameObject:
   m_ObjectHideFlags: 0
