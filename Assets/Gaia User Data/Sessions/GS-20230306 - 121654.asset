@@ -2290,6 +2290,51 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 19-03-2023 02:27:24
+    scriptableObjectAssetGUID: b2e6cef303dd4874abed2f68aed2f084
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 19-03-2023 02:27:32
+    scriptableObjectAssetGUID: 436a2b8d37d0d424a87d8e61e4ef6d71
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 19-03-2023 02:27:39
+    scriptableObjectAssetGUID: 219ca1313b86cd14394c5cb663fd75aa
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Rock Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Desert
+    m_operationDateTime: 19-03-2023 02:29:28
+    scriptableObjectAssetGUID: 62c248eca762e374fa40388df2d7b4e0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
@@ -2304,6 +2349,10 @@ MonoBehaviour:
   m_bakedMaskCacheEntries:
   - fileName: Desert_LayerGameObject_3600_0
     assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
-    fullPath: D:/Unity/Projects/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
+    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
+    texture: {fileID: 0}
+  - fileName: Desert_LayerGameObject_3584_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3584_0
+    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3584_0
     texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
