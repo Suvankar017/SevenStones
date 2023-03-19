@@ -51,7 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 25aef61920cb76f47ab6ee836690dae4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PW_CoverLayer0:
@@ -202,7 +202,7 @@ Material:
     - _PW_SSSTint: {r: 1, g: 1, b: 1, a: 1}
     - _PW_WindTreeFlex: {r: 0.8, g: 1.15, b: 0.1, a: 0}
     - _PW_WindTreeFrequency: {r: 0.25, g: 0.5, b: 1.3, a: 0}
-    - _PW_WindTreeWidthHeight: {r: 4, g: 8, b: 0, a: 0}
+    - _PW_WindTreeWidthHeight: {r: 4, g: 1, b: 0, a: 0}
     - _PW_WorldMapColorCover0: {r: 1, g: 1, b: 1, a: 1}
     - _PW_WorldMapColorCover1: {r: 1, g: 1, b: 1, a: 1}
     - _PW_WorldMapColorObject: {r: 1, g: 1, b: 1, a: 1}
