@@ -148,7 +148,7 @@ MonoBehaviour:
     m_updateTerrain: 0
     m_position: {x: 6, y: 0, z: 0}
     m_brushIndex: 3
-    m_areaOfEffect: 300
+    m_areaOfEffect: 250
     m_textureProtoIndex: 0
     m_detailProtoIndex: 0
     m_brushTextureIDs: 

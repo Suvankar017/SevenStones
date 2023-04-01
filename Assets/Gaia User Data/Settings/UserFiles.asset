@@ -25,6 +25,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8cb1ba7f10fe01240ad4b56dedfb08dd, type: 2}
   - {fileID: 11400000, guid: 7d3400857d47564499d13205c1809e9d, type: 2}
   - {fileID: 11400000, guid: a37b232f08273d341b44a360e8001a3f, type: 2}
+  - {fileID: 11400000, guid: b7070671f23702c499faa7beaf6923a1, type: 2}
   m_gaiaManagerSpawnerSettings:
   - {fileID: 11400000, guid: c3867a1dc5d61694b9ade5a115ae2658, type: 2}
   - {fileID: 11400000, guid: 73049ac12c97b4c4d8547330a2b13c8b, type: 2}
@@ -84,11 +85,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fdec3c4c775f7b944ab32bc999c20531, type: 2}
   - {fileID: 11400000, guid: 81b0e93a964e9804c9806f8bde6ba9ec, type: 2}
   - {fileID: 11400000, guid: 95c99806ca590174fa8b3a1feca9456b, type: 2}
+  - {fileID: 11400000, guid: 753f021aefb954f458d4da668564e96c, type: 2}
   - {fileID: 11400000, guid: 6c8a41df0470ebe4d827eca2e1cd394f, type: 2}
   - {fileID: 11400000, guid: 0a8f7d645402c0e43bb9a18ea5e80e71, type: 2}
+  - {fileID: 11400000, guid: 99b67ffeffdb6fc44be963d15c3980e5, type: 2}
   - {fileID: 11400000, guid: d40cad1d0828c854aa4d2827acc413fe, type: 2}
   - {fileID: 11400000, guid: 8d9083aae79f6c047afa100f75cc3350, type: 2}
-  - {fileID: 11400000, guid: 753f021aefb954f458d4da668564e96c, type: 2}
   m_exportTerrainSettings:
   - {fileID: 11400000, guid: e2f4c9ca1bbf7e14f8cf0968afef1545, type: 2}
   - {fileID: 11400000, guid: 4df53086319f20747ae21f39ef7a76aa, type: 2}

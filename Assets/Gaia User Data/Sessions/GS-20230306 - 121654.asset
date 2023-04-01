@@ -2394,10 +2394,192 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:14:42
+    scriptableObjectAssetGUID: 45600f364d09ad741b796378bd1a0dad
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:24:11
+    scriptableObjectAssetGUID: 064eb789d41dd0142a72a511ded80d01
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:43:05
+    scriptableObjectAssetGUID: bd386fda38d23fc4ba7bca57cc3a7be3
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:54:09
+    scriptableObjectAssetGUID: 206c670915058f94ba164a509ce08e61
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:54:53
+    scriptableObjectAssetGUID: 25d6e01e8d9538a46a4bcefedf7aff1b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:55:10
+    scriptableObjectAssetGUID: cbebfed6189d9ff4aac880330bcb5d79
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:55:33
+    scriptableObjectAssetGUID: 40510c3385d47e444b1b566017b8e2e7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:56:00
+    scriptableObjectAssetGUID: d8c8610227ab9844eaf550f7086bcc47
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:56:26
+    scriptableObjectAssetGUID: 545dd46ecef4c454191457720b92cab4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:56:47
+    scriptableObjectAssetGUID: 03491f63e0bb8524c91864006698c957
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:57:06
+    scriptableObjectAssetGUID: c0033b1747bf5f843afe784487fb0efb
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 01:59:22
+    scriptableObjectAssetGUID: c28d52db42a3d07439704a7f39ca5804
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 02:01:35
+    scriptableObjectAssetGUID: 638326faa467b4d4fa17bd20a938ba61
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 02:02:35
+    scriptableObjectAssetGUID: 6ffc251156cc08c47aa0c0dde516e449
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 02:03:10
+    scriptableObjectAssetGUID: 611953b3a19fa954195b30a3ce47b02f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadTree Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 02:03:57
+    scriptableObjectAssetGUID: 3c94bfd893e29d445b6f0092997511ec
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
     recalculate: 0
+    min: 98.032745
+    max: 438.88168
+  - guid: d8e3b145a09de61459cd0a01b33db233
+    isWorldmap: 0
+    recalculate: 1
     min: 98.032745
     max: 438.88168
   - guid: Worldmap
@@ -2406,12 +2588,8 @@ MonoBehaviour:
     min: 0
     max: 0
   m_bakedMaskCacheEntries:
-  - fileName: Desert_LayerGameObject_3600_0
-    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
-    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3600_0
-    texture: {fileID: 0}
-  - fileName: Desert_LayerGameObject_3584_0
-    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3584_0
-    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Desert/Desert_LayerGameObject_3584_0
+  - fileName: Ruins_LayerGameObject_3600_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
+    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
     texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}

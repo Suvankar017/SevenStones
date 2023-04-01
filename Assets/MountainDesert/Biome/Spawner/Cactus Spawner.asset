@@ -17,347 +17,190 @@ MonoBehaviour:
     m_name: NewResources
     m_beachHeight: 5
     m_terrainHeight: 1000
-    m_texturePrototypes:
-    - m_name: New Texture 1
-      m_texture: {fileID: 0}
-      m_textureFileName: 
-      m_normal: {fileID: 0}
-      m_maskmap: {fileID: 0}
-      m_CTSSmoothnessMap: {fileID: 0}
-      m_CTSRoughnessMap: {fileID: 0}
-      m_CTSHeightMap: {fileID: 0}
-      m_CTSAmbientOcclusionMap: {fileID: 0}
-      m_normalFileName: 
-      m_sizeX: 8
-      m_sizeY: 8
-      m_offsetX: 0
-      m_offsetY: 0
-      m_metallic: 0
-      m_smoothness: 0
-      m_spawnCriteria: []
-      m_LayerGUID: 
-      m_normalScale: 1
-      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
-      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
-      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
-      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
-      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
-      m_channelRemapFoldedOut: 0
+    m_texturePrototypes: []
     m_detailPrototypes: []
-    m_treePrototypes: []
-    m_gameObjectPrototypes:
-    - m_name: Cactus
-      m_instances:
-      - m_name: cactus1
-        m_desktopPrefab: {fileID: 5537108952103577568, guid: 76b3d2e9d710e9447824e7b1f07ce25d,
-          type: 3}
-        m_desktopPrefabFileName: 
-        m_minInstances: 1
-        m_maxInstances: 1
-        m_failureRate: 0.4
-        m_minSpawnOffsetX: 0
-        m_maxSpawnOffsetX: 0
-        m_minSpawnOffsetY: -0.3
-        m_maxSpawnOffsetY: -0.1
-        m_minSpawnOffsetZ: 0
-        m_maxSpawnOffsetZ: 0
-        m_rotateToSlope: 0
-        m_alignForwardVectorToSlope: 1
-        m_yOffsetToSlope: 0
-        m_minRotationOffsetX: 0
-        m_maxRotationOffsetX: 0
-        m_minRotationOffsetY: 0
-        m_maxRotationOffsetY: 180
-        m_minRotationOffsetZ: 0
-        m_maxRotationOffsetZ: 0
-        m_minScale: 1
-        m_maxScale: 3
-        m_scaleByDistance:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        m_localBounds: 5
-        m_virginTerrain: 1
-        m_extParam: 
-        m_spawnScale: 2
-        m_commonScale: 1
-        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
-        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
-        m_scaleRandomPercentage: 0.5
-        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
-        m_foldedOut: 0
-        m_yOffsetBasedOn: 0
-        m_customOffset: 0
-      - m_name: cactus2
-        m_desktopPrefab: {fileID: 2196512944752879247, guid: 6faa853e2d9cf4f40b842bac925e4954,
-          type: 3}
-        m_desktopPrefabFileName: 
-        m_minInstances: 1
-        m_maxInstances: 1
-        m_failureRate: 0.5
-        m_minSpawnOffsetX: 0
-        m_maxSpawnOffsetX: 0
-        m_minSpawnOffsetY: -0.3
-        m_maxSpawnOffsetY: -0.1
-        m_minSpawnOffsetZ: 0
-        m_maxSpawnOffsetZ: 0
-        m_rotateToSlope: 0
-        m_alignForwardVectorToSlope: 1
-        m_yOffsetToSlope: 0
-        m_minRotationOffsetX: 0
-        m_maxRotationOffsetX: 0
-        m_minRotationOffsetY: 0
-        m_maxRotationOffsetY: 180
-        m_minRotationOffsetZ: 0
-        m_maxRotationOffsetZ: 0
-        m_minScale: 1
-        m_maxScale: 1
-        m_scaleByDistance:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        m_localBounds: 5
-        m_virginTerrain: 1
-        m_extParam: 
-        m_spawnScale: 0
-        m_commonScale: 1
-        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
-        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
-        m_scaleRandomPercentage: 0.5
-        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
-        m_foldedOut: 0
-        m_yOffsetBasedOn: 0
-        m_customOffset: 0
-      - m_name: cactus3
-        m_desktopPrefab: {fileID: 1313639787038619005, guid: 159ed3d699a6e6c4b817662d9238a0c4,
-          type: 3}
-        m_desktopPrefabFileName: 
-        m_minInstances: 1
-        m_maxInstances: 1
-        m_failureRate: 0.5
-        m_minSpawnOffsetX: 0
-        m_maxSpawnOffsetX: 0
-        m_minSpawnOffsetY: -0.3
-        m_maxSpawnOffsetY: -0.1
-        m_minSpawnOffsetZ: 0
-        m_maxSpawnOffsetZ: 0
-        m_rotateToSlope: 0
-        m_alignForwardVectorToSlope: 1
-        m_yOffsetToSlope: 0
-        m_minRotationOffsetX: 0
-        m_maxRotationOffsetX: 0
-        m_minRotationOffsetY: 0
-        m_maxRotationOffsetY: 180
-        m_minRotationOffsetZ: 0
-        m_maxRotationOffsetZ: 0
-        m_minScale: 1
-        m_maxScale: 1
-        m_scaleByDistance:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        m_localBounds: 5
-        m_virginTerrain: 1
-        m_extParam: 
-        m_spawnScale: 0
-        m_commonScale: 1
-        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
-        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
-        m_scaleRandomPercentage: 0.5
-        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
-        m_foldedOut: 0
-        m_yOffsetBasedOn: 0
-        m_customOffset: 0
-      - m_name: cactus4
-        m_desktopPrefab: {fileID: 2417576676066353137, guid: 2dc890992c948fd498f01d9895840950,
-          type: 3}
-        m_desktopPrefabFileName: 
-        m_minInstances: 1
-        m_maxInstances: 1
-        m_failureRate: 0.6
-        m_minSpawnOffsetX: 0
-        m_maxSpawnOffsetX: 0
-        m_minSpawnOffsetY: -0.3
-        m_maxSpawnOffsetY: -0.1
-        m_minSpawnOffsetZ: 0
-        m_maxSpawnOffsetZ: 0
-        m_rotateToSlope: 0
-        m_alignForwardVectorToSlope: 1
-        m_yOffsetToSlope: 0
-        m_minRotationOffsetX: 0
-        m_maxRotationOffsetX: 0
-        m_minRotationOffsetY: 0
-        m_maxRotationOffsetY: 180
-        m_minRotationOffsetZ: 0
-        m_maxRotationOffsetZ: 0
-        m_minScale: 1
-        m_maxScale: 1
-        m_scaleByDistance:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        m_localBounds: 5
-        m_virginTerrain: 1
-        m_extParam: 
-        m_spawnScale: 0
-        m_commonScale: 1
-        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
-        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
-        m_scaleRandomPercentage: 0.5
-        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
-        m_foldedOut: 0
-        m_yOffsetBasedOn: 0
-        m_customOffset: 0
-      - m_name: cactus5
-        m_desktopPrefab: {fileID: 8241622112141029730, guid: b73a206131246c84fb8e74814deaa275,
-          type: 3}
-        m_desktopPrefabFileName: 
-        m_minInstances: 1
-        m_maxInstances: 1
-        m_failureRate: 0.6
-        m_minSpawnOffsetX: 0
-        m_maxSpawnOffsetX: 0
-        m_minSpawnOffsetY: -0.3
-        m_maxSpawnOffsetY: -0.1
-        m_minSpawnOffsetZ: 0
-        m_maxSpawnOffsetZ: 0
-        m_rotateToSlope: 0
-        m_alignForwardVectorToSlope: 1
-        m_yOffsetToSlope: 0
-        m_minRotationOffsetX: 0
-        m_maxRotationOffsetX: 0
-        m_minRotationOffsetY: 0
-        m_maxRotationOffsetY: 180
-        m_minRotationOffsetZ: 0
-        m_maxRotationOffsetZ: 0
-        m_minScale: 1
-        m_maxScale: 1
-        m_scaleByDistance:
-          serializedVersion: 2
-          m_Curve:
-          - serializedVersion: 3
-            time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 1
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        m_localBounds: 5
-        m_virginTerrain: 1
-        m_extParam: 
-        m_spawnScale: 0
-        m_commonScale: 1
-        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
-        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
-        m_scaleRandomPercentage: 0.5
-        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
-        m_foldedOut: 0
-        m_yOffsetBasedOn: 0
-        m_customOffset: 0
-      m_dna:
-        m_boundsRadius: 10
-        m_scaleMultiplier: 1
-        m_extParam: 
-        m_protoIdx: 0
+    m_treePrototypes:
+    - m_name: cactus1
+      m_desktopPrefab: {fileID: 5537108952103577568, guid: 76b3d2e9d710e9447824e7b1f07ce25d,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 2
+      m_minWidth: 0.5
+      m_maxWidth: 0.75
+      m_minHeight: 0.75
+      m_maxHeight: 1
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 2
+      m_lastUsedMinWidth: 0.5
+      m_lastUsedMaxWidth: 0.75
+      m_lastUsedMinHeight: 0.75
+      m_lastUsedMaxHeight: 1
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
       m_spawnCriteria: []
       m_spawnExtensions: []
-      m_canSpawnAsTree: 0
-      m_instancesFoldOut: 1
+      m_instancesFoldOut: 0
       m_dnaFoldedOut: 0
+      m_useFlora: 0
+      m_floraLODs: []
+      m_pwDetailerSettingsObject: {fileID: 0}
+      m_detailerSettingsObjectAssetGUID: 
+      m_detailerSettingsObjectInstanceID: 0
+    - m_name: cactus2
+      m_desktopPrefab: {fileID: 2196512944752879247, guid: 6faa853e2d9cf4f40b842bac925e4954,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 2
+      m_minWidth: 0.6
+      m_maxWidth: 0.8
+      m_minHeight: 1
+      m_maxHeight: 1.25
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 2
+      m_lastUsedMinWidth: 0.6
+      m_lastUsedMaxWidth: 0.8
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 1.25
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+      m_useFlora: 0
+      m_floraLODs: []
+      m_pwDetailerSettingsObject: {fileID: 0}
+      m_detailerSettingsObjectAssetGUID: 
+      m_detailerSettingsObjectInstanceID: 0
+    - m_name: cactus3
+      m_desktopPrefab: {fileID: 1313639787038619005, guid: 159ed3d699a6e6c4b817662d9238a0c4,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 2
+      m_minWidth: 0.7
+      m_maxWidth: 0.8
+      m_minHeight: 0.75
+      m_maxHeight: 1.5
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 2
+      m_lastUsedMinWidth: 0.7
+      m_lastUsedMaxWidth: 0.8
+      m_lastUsedMinHeight: 0.75
+      m_lastUsedMaxHeight: 1.5
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+      m_useFlora: 0
+      m_floraLODs: []
+      m_pwDetailerSettingsObject: {fileID: 0}
+      m_detailerSettingsObjectAssetGUID: 
+      m_detailerSettingsObjectInstanceID: 0
+    - m_name: cactus4
+      m_desktopPrefab: {fileID: 2417576676066353137, guid: 2dc890992c948fd498f01d9895840950,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 2
+      m_minWidth: 0.6
+      m_maxWidth: 0.8
+      m_minHeight: 0.75
+      m_maxHeight: 1
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 2
+      m_lastUsedMinWidth: 0.6
+      m_lastUsedMaxWidth: 0.8
+      m_lastUsedMinHeight: 0.75
+      m_lastUsedMaxHeight: 1
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+      m_useFlora: 0
+      m_floraLODs: []
+      m_pwDetailerSettingsObject: {fileID: 0}
+      m_detailerSettingsObjectAssetGUID: 
+      m_detailerSettingsObjectInstanceID: 0
+    - m_name: cactus5
+      m_desktopPrefab: {fileID: 8241622112141029730, guid: b73a206131246c84fb8e74814deaa275,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 2
+      m_minWidth: 0.75
+      m_maxWidth: 1
+      m_minHeight: 1
+      m_maxHeight: 1.5
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 2
+      m_lastUsedMinWidth: 0.75
+      m_lastUsedMaxWidth: 1
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 1.5
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+      m_useFlora: 0
+      m_floraLODs: []
+      m_pwDetailerSettingsObject: {fileID: 0}
+      m_detailerSettingsObjectAssetGUID: 
+      m_detailerSettingsObjectInstanceID: 0
+    m_gameObjectPrototypes: []
     m_spawnExtensionPrototypes: []
     m_stampDistributionPrototypes: []
     m_worldBiomeMaskPrototypes: []
@@ -376,7 +219,7 @@ MonoBehaviour:
   m_spawnDensity: 1
   m_resourcesPath: 
   m_spawnerRules:
-  - m_name: Cactus
+  - m_name: Cactus1
     m_guid: 5c6d4d51-920a-40e1-90d0-62308d83bba2
     m_useExtendedSpawn: 0
     m_minRequiredFitness: 0.25
@@ -386,14 +229,218 @@ MonoBehaviour:
     m_ignoreMaxInstances: 0
     m_minDirection: 0
     m_maxDirection: 359.9
-    m_locationIncrementMin: 100
-    m_locationIncrementMax: 45
-    m_jitterPercent: 1
+    m_locationIncrementMin: 43
+    m_locationIncrementMax: 100
+    m_jitterPercent: 0.671
     m_boundsCheckQuality: 50
-    m_resourceType: 3
+    m_resourceType: 2
     m_resourceIdx: 0
     m_imageMasks: []
     m_visualisationColor: {r: 0.24677676, g: 1, b: 0.07457468, a: 1}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 1
+    m_isHelpActive: 0
+    m_spawnedInstances: 113
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 1
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Cactus2
+    m_guid: 9dbd8d3b-e3fe-4282-9162-63ee8d4e4f81
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 55
+    m_locationIncrementMax: 100
+    m_jitterPercent: 0.516
+    m_boundsCheckQuality: 50
+    m_resourceType: 2
+    m_resourceIdx: 1
+    m_imageMasks: []
+    m_visualisationColor: {r: 0.022753656, g: 1, b: 0.5631184, a: 1}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 1
+    m_isHelpActive: 0
+    m_spawnedInstances: 67
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 1
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Cactus3
+    m_guid: 27072433-631d-4aed-bafc-7a4f444c459f
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 59
+    m_locationIncrementMax: 100
+    m_jitterPercent: 0.262
+    m_boundsCheckQuality: 50
+    m_resourceType: 2
+    m_resourceIdx: 2
+    m_imageMasks: []
+    m_visualisationColor: {r: 0.5581397, g: 1, b: 0.043747425, a: 1}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 1
+    m_isHelpActive: 0
+    m_spawnedInstances: 56
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 1
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Cactus4
+    m_guid: 6e3a6489-5854-4d4c-82e5-ca4d3d1f1505
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 52
+    m_locationIncrementMax: 100
+    m_jitterPercent: 0.287
+    m_boundsCheckQuality: 50
+    m_resourceType: 2
+    m_resourceIdx: 3
+    m_imageMasks: []
+    m_visualisationColor: {r: 0, g: 0.38844222, b: 1, a: 1}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 1
+    m_isHelpActive: 0
+    m_spawnedInstances: 75
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 1
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Cactus5
+    m_guid: 288db271-70fd-43de-9fd9-b07d1fe47167
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 74
+    m_locationIncrementMax: 100
+    m_jitterPercent: 0.355
+    m_boundsCheckQuality: 50
+    m_resourceType: 2
+    m_resourceIdx: 4
+    m_imageMasks: []
+    m_visualisationColor: {r: 0, g: 0.3191344, b: 1, a: 1}
     m_noiseMask: 0
     m_noiseMaskSeed: 0
     m_noiseMaskOctaves: 8
@@ -410,7 +457,7 @@ MonoBehaviour:
     m_inactiveInstanceCnt: 0
     m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
-    m_spawnedInstances: 43
+    m_spawnedInstances: 34
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -600,8 +647,9 @@ MonoBehaviour:
       m_growShrinkDistance: 0
       m_layerMask:
         serializedVersion: 2
-        m_Bits: 3584
+        m_Bits: 3600
       m_layerMaskLayerNames:
+      - Water
       - PW_Object_Small
       - PW_Object_Medium
       - PW_Object_Large
@@ -632,7 +680,7 @@ MonoBehaviour:
     m_textureMaskSpawnRuleGUID: 
     m_concavity: 1
     m_concavityFeatureSize: 10
-    m_foldedOut: 1
+    m_foldedOut: 0
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
@@ -821,7 +869,7 @@ MonoBehaviour:
     m_textureMaskSpawnRuleGUID: 
     m_concavity: 1
     m_concavityFeatureSize: 10
-    m_foldedOut: 1
+    m_foldedOut: 0
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
@@ -925,8 +973,8 @@ MonoBehaviour:
     m_heightMaskUnit: 1
     m_relativeHeightMin: 23.19
     m_relativeHeightMax: 73.19
-    m_absoluteHeightMin: 43.427486
-    m_absoluteHeightMax: 93.42749
+    m_absoluteHeightMin: 45.193882
+    m_absoluteHeightMax: 95.193886
     m_seaLevelRelativeHeightMin: -109876.55
     m_seaLevelRelativeHeightMax: 109876.55
     tree1active: 0
@@ -1010,7 +1058,7 @@ MonoBehaviour:
     m_textureMaskSpawnRuleGUID: 
     m_concavity: 1
     m_concavityFeatureSize: 10
-    m_foldedOut: 1
+    m_foldedOut: 0
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
@@ -1021,7 +1069,7 @@ MonoBehaviour:
   m_clearSpawnsToggleProbes: 0
   m_clearSpawnsFor: 1
   m_clearSpawnsFrom: 0
-  m_lastGUIDSaved: 
+  m_lastGUIDSaved: 6c8a41df0470ebe4d827eca2e1cd394f
   m_stampDensity: 0
   m_stampJitter: 0.25
   m_stampWidth: 100

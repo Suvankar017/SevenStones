@@ -45,8 +45,45 @@ MonoBehaviour:
       m_channelRemapFoldedOut: 0
     m_detailPrototypes: []
     m_treePrototypes:
-    - m_name: New Tree 1
-      m_desktopPrefab: {fileID: 0}
+    - m_name: DT1
+      m_desktopPrefab: {fileID: 4714406501716042079, guid: 7a9c770bbac83dc49bc7893b250d8bbf,
+        type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 1
+      m_minWidth: 0.75
+      m_maxWidth: 1.5
+      m_minHeight: 0.75
+      m_maxHeight: 1.5
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 1
+      m_lastUsedMinWidth: 0.75
+      m_lastUsedMaxWidth: 1.5
+      m_lastUsedMinHeight: 0.75
+      m_lastUsedMaxHeight: 1.5
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+      m_useFlora: 0
+      m_floraLODs: []
+      m_pwDetailerSettingsObject: {fileID: 0}
+      m_detailerSettingsObjectAssetGUID: 
+      m_detailerSettingsObjectInstanceID: 0
+    - m_name: DT2
+      m_desktopPrefab: {fileID: 5301552420911178466, guid: b712b798d22d47f40b73637ec4dbdc9b,
+        type: 3}
       m_desktopPrefabFileName: 
       m_mobilePrefabFileName: 
       m_bendFactor: 0
@@ -291,21 +328,21 @@ MonoBehaviour:
   m_spawnDensity: 1
   m_resourcesPath: 
   m_spawnerRules:
-  - m_name: Tree
+  - m_name: DeadTree1
     m_guid: 52404aa6-20bf-4965-9ffe-6ca7f450f534
     m_useExtendedSpawn: 0
-    m_minRequiredFitness: 0.25
+    m_minRequiredFitness: 0.7
     m_minInstanceRequiredFitness: 0
-    m_failureRate: 0
+    m_failureRate: 0.5
     m_maxInstances: 40000000
     m_ignoreMaxInstances: 0
     m_minDirection: 0
     m_maxDirection: 359.9
-    m_locationIncrementMin: 70
-    m_locationIncrementMax: 45
-    m_jitterPercent: 1
+    m_locationIncrementMin: 30
+    m_locationIncrementMax: 100
+    m_jitterPercent: 0.752
     m_boundsCheckQuality: 10
-    m_resourceType: 3
+    m_resourceType: 2
     m_resourceIdx: 0
     m_imageMasks: []
     m_visualisationColor: {r: 0.990566, g: 0, b: 0, a: 1}
@@ -326,6 +363,57 @@ MonoBehaviour:
     m_resourceSettingsFoldedOut: 1
     m_isHelpActive: 0
     m_spawnedInstances: 34
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 1
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: DeadTree2
+    m_guid: d415d8ee-8f42-45b7-9751-6fa50c604cf5
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.7
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0.5
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 30
+    m_locationIncrementMax: 120
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 10
+    m_resourceType: 2
+    m_resourceIdx: 1
+    m_imageMasks: []
+    m_visualisationColor: {r: 0.2953775, g: 1, b: 0.06976282, a: 1}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 1
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 1
+    m_isHelpActive: 0
+    m_spawnedInstances: 30
     m_goSpawnTargetMode: 0
     m_goSpawnTarget: {fileID: 0}
     m_terrainGOSpawnTargetName: Gaia Game Object Spawns
@@ -515,8 +603,9 @@ MonoBehaviour:
       m_growShrinkDistance: 0
       m_layerMask:
         serializedVersion: 2
-        m_Bits: 3584
+        m_Bits: 3600
       m_layerMaskLayerNames:
+      - Water
       - PW_Object_Small
       - PW_Object_Medium
       - PW_Object_Large
@@ -547,7 +636,7 @@ MonoBehaviour:
     m_textureMaskSpawnRuleGUID: 
     m_concavity: 1
     m_concavityFeatureSize: 10
-    m_foldedOut: 1
+    m_foldedOut: 0
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
@@ -682,7 +771,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_slopeMin: 0
-    m_slopeMax: 0.16666667
+    m_slopeMax: 0.07388889
     m_distanceMaskAxes: 3
     m_gaiaNoiseSettings:
       m_translation: {x: 0, y: 0, z: 0}
@@ -736,7 +825,7 @@ MonoBehaviour:
     m_textureMaskSpawnRuleGUID: 
     m_concavity: 1
     m_concavityFeatureSize: 10
-    m_foldedOut: 1
+    m_foldedOut: 0
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
@@ -792,19 +881,37 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
+        time: 0.00207901
+        value: 0.099975586
+        inSlope: 2
+        outSlope: 2
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
+        time: 0.33508715
+        value: 1.0293101
+        inSlope: 0.6762725
+        outSlope: 0.6762725
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.97340214
+        value: 1.164715
+        inSlope: -2.355082
+        outSlope: -2.355082
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9885559
+        value: -0.0038757324
+        inSlope: 0
+        outSlope: 0
         tangentMode: 0
         weightedMode: 0
         inWeight: 0
@@ -816,40 +923,22 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        time: 0.0064376295
+        value: -0.045797125
+        inSlope: 1.0525732
+        outSlope: 1.0525732
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.4224323
-        value: 1.3772657
-        inSlope: 1.4999883
-        outSlope: 1.4999883
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.9320745
-        value: 1.4606633
-        inSlope: -3.3516407
-        outSlope: -3.3516407
-        tangentMode: 0
+        time: 1
+        value: 1
+        inSlope: 1.0525732
+        outSlope: 1.0525732
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.9389343
-        value: 0.0368042
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -943,7 +1032,7 @@ MonoBehaviour:
     m_textureMaskSpawnRuleGUID: 
     m_concavity: 1
     m_concavityFeatureSize: 10
-    m_foldedOut: 1
+    m_foldedOut: 0
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
@@ -958,12 +1047,12 @@ MonoBehaviour:
     m_seaLevel: 75
     m_maxWorldHeight: 438.88168
     m_minWorldHeight: 98.032745
-    m_xOffSet: 1
-    m_zOffSet: 0
-    m_xOffSetScalar: 0.0009765625
-    m_zOffSetScalar: 0
-    m_xScale: 1
-    m_zScale: 4
+    m_xOffSet: 250
+    m_zOffSet: -50
+    m_xOffSetScalar: 0.24414062
+    m_zOffSetScalar: -0.048828125
+    m_xScale: 2
+    m_zScale: 1.5
     m_rotationDegrees: 0
     m_tiling: 0
     m_imageMaskSpace: 0
@@ -975,31 +1064,22 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.6146197
-        value: 1.7541448
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        time: -0.009490967
+        value: 1.5145035
+        inSlope: -30.378592
+        outSlope: -30.378592
+        tangentMode: 34
         weightedMode: 0
         inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0.67906284
-        value: 0.49367827
-        inSlope: -6.626273
-        outSlope: -6.626273
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.9963379
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
+        time: 0.1317808
+        value: -2.7771342
+        inSlope: -30.378592
+        outSlope: -30.378592
+        tangentMode: 34
         weightedMode: 0
-        inWeight: 0
+        inWeight: 0.33333334
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -1009,22 +1089,22 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
+        value: 1
+        inSlope: -1
+        outSlope: -1
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: -0
+        outWeight: -0
       - serializedVersion: 3
         time: 1
-        value: 1
-        inSlope: 1
-        outSlope: 1
+        value: 0
+        inSlope: -1
+        outSlope: -1
         tangentMode: 0
         weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+        inWeight: -0
+        outWeight: -0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -1141,18 +1221,18 @@ MonoBehaviour:
     m_textureMaskSpawnRuleGUID: 
     m_concavity: 1
     m_concavityFeatureSize: 10
-    m_foldedOut: 1
+    m_foldedOut: 0
     m_selectedWorldBiomeMaskGUID: 
     m_growAndShrinkValue: 0
     m_globalSpawnerMaskStackRT: {fileID: 0}
-  m_clearSpawnsToggleTrees: 0
-  m_clearSpawnsToggleDetails: 0
-  m_clearSpawnsToggleGOs: 0
-  m_clearSpawnsToggleSpawnExtensions: 0
-  m_clearSpawnsToggleProbes: 0
+  m_clearSpawnsToggleTrees: 1
+  m_clearSpawnsToggleDetails: 1
+  m_clearSpawnsToggleGOs: 1
+  m_clearSpawnsToggleSpawnExtensions: 1
+  m_clearSpawnsToggleProbes: 1
   m_clearSpawnsFor: 1
   m_clearSpawnsFrom: 0
-  m_lastGUIDSaved: 
+  m_lastGUIDSaved: 0a8f7d645402c0e43bb9a18ea5e80e71
   m_stampDensity: 0
   m_stampJitter: 0.25
   m_stampWidth: 100
