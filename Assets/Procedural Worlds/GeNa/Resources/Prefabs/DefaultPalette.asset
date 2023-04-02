@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c477de684ee10c4082f9fddf19a75ce, type: 3}
   m_Name: DefaultPalette
   m_EditorClassIdentifier: 
-  m_paletteEntryIDCount: -2147483416
+  m_paletteEntryIDCount: -2147483415
   m_paletteEntries:
   - m_name: Pref_Barn1_A
     m_id: -2147483647
@@ -1046,4 +1046,9 @@ MonoBehaviour:
     m_id: -2147483416
     m_guid: 011450b8cdba35345ab431eb619467c1
     m_object: {fileID: 6386699433463102565, guid: 011450b8cdba35345ab431eb619467c1,
+      type: 3}
+  - m_name: Colosseum
+    m_id: -2147483415
+    m_guid: 3774abc23b29707459b73360987ecc44
+    m_object: {fileID: 121426415925907833, guid: 3774abc23b29707459b73360987ecc44,
       type: 3}

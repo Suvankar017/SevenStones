@@ -2571,6 +2571,41 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 20:41:05
+    scriptableObjectAssetGUID: e11b6aae97e93d544a58f7a2e9cedde8
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 21:04:11
+    scriptableObjectAssetGUID: f11cc19fcd1413b46a595232a275b49c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 02-04-2023 21:09:56
+    scriptableObjectAssetGUID: 91e80eae504686c42b235a3ed6a03b51
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
@@ -2579,7 +2614,7 @@ MonoBehaviour:
     max: 438.88168
   - guid: d8e3b145a09de61459cd0a01b33db233
     isWorldmap: 0
-    recalculate: 1
+    recalculate: 0
     min: 98.032745
     max: 438.88168
   - guid: Worldmap
@@ -2591,5 +2626,9 @@ MonoBehaviour:
   - fileName: Ruins_LayerGameObject_3600_0
     assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
     fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
+    texture: {fileID: 0}
+  - fileName: Ruins_LayerGameObject_3584_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3584_0
+    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3584_0
     texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
