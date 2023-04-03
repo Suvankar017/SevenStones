@@ -2606,6 +2606,62 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 00:22:27
+    scriptableObjectAssetGUID: da4048f557980d24eb0fd92fb288503d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 00:22:56
+    scriptableObjectAssetGUID: fa92264abaf02a440b2a72c3aed28e54
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 00:38:46
+    scriptableObjectAssetGUID: 0d7ab795c5e59664dadc25ff22c00e44
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 01:01:28
+    scriptableObjectAssetGUID: 810b51d3330e2514a887bde4e29c74ff
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (7)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 01:22:14
+    scriptableObjectAssetGUID: de8d79cd05606a64ca7b18df6803ac9c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
@@ -2613,6 +2669,21 @@ MonoBehaviour:
     min: 98.032745
     max: 438.88168
   - guid: d8e3b145a09de61459cd0a01b33db233
+    isWorldmap: 0
+    recalculate: 1
+    min: 98.032745
+    max: 438.88168
+  - guid: b2a5ca8d543155a44b8d12f64e6929e4
+    isWorldmap: 0
+    recalculate: 0
+    min: 98.032745
+    max: 438.88168
+  - guid: 9bc4aed951953af41bed12170138a0f4
+    isWorldmap: 0
+    recalculate: 1
+    min: 98.032745
+    max: 438.88168
+  - guid: 249f81c268248144980f80de308b0f5a
     isWorldmap: 0
     recalculate: 0
     min: 98.032745
