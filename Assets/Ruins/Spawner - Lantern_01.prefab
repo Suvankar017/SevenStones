@@ -1,0 +1,6321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1622390276913288040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1354667151730521071}
+  - component: {fileID: 6258088448719865449}
+  m_Layer: 0
+  m_Name: Spawner - Lantern_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1354667151730521071
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622390276913288040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6258088448719865449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622390276913288040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7285ababe3c85bb44a974b12a335b4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_version: 2
+  m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+  m_data:
+    version: 1
+    m_data: 
+    m_file: {fileID: 0}
+    m_serializeToFile: 0
+  m_spawnerData: {fileID: -7428237789700073803}
+  m_prototypeRootPrefabs:
+  - {fileID: 3732823487967909960, guid: 4a914c7060e48944a860a83e52eeaa76, type: 3}
+  - {fileID: 3463436091055318273, guid: 6aa6daa49af5ccc48bf548170cd83ada, type: 3}
+  - {fileID: 5962840973795164716, guid: 34506d9b25637a54f81c4d4e40e780c0, type: 3}
+  - {fileID: 7143402339705128161, guid: b1595b563b97f104f90af1f70332dd52, type: 3}
+--- !u!114 &-7428237789700073803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a29c0690fd982034994ed5ebc81f639e, type: 3}
+  m_Name: Spawner Data (Main)
+  m_EditorClassIdentifier: 
+  m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+  m_spawnTimeInterval: 1000
+  m_defaultsSet: 1
+  m_terrainYPos: 0
+  m_terrainHeight: 1024
+  m_nextProtoId: 6
+  m_groundLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  m_settings:
+    m_autoProbe: 1
+    m_minProbeGroupDistance: 100
+    m_minProbeDistance: 15
+    m_autoOptimise: 0
+    m_maxSizeToOptimise: 10
+    m_visualizationActive: 0
+    m_maxVisualizationDimensions: 32
+    m_maxSubSpawnerDepth: 5
+    m_showCritMinSpawnHeight: 0
+    m_showCritMaxSpawnHeight: 0
+    m_advanced:
+      m_performUndoAtRuntime: 0
+      m_addColliderToSpawnedPrefabs: 0
+      m_spawnCheckOffset: 2000
+      m_boundsOffset: 1.5
+      m_debugEnabled: 0
+  m_placementCriteria:
+    m_spawnAlgorithm: 3
+    m_maxFailCount: 10
+    m_globalSpawnJitterPct: 0.75
+    m_seedThrowJitter: 1
+    m_rotationAlgorithm: 0
+    m_minRotationY: 0
+    m_maxRotationY: 360
+    m_enableRotationDragUpdate: 1
+    m_sameScale: 1
+    m_scaleToNearestInt: 0
+    m_minScale: {x: 1, y: 0.7, z: 0.7}
+    m_maxScale: {x: 1, y: 1.3, z: 1.3}
+    m_useGravity: 0
+    m_scaleFalloff:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.8
+        value: 0.8
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_spawnCriteria:
+    m_checkRange: 1
+    m_forceSpawn: 0
+    m_checkCollisionType: 2
+    m_spawnCollisionLayers:
+      serializedVersion: 2
+      m_Bits: 3842
+    m_blendAmount: 0.001
+    m_boundsExtents: 0.001
+    m_checkSlopeType: 1
+    m_minSpawnSlope: 0
+    m_maxSpawnSlope: 57.700043
+    m_minSlope: 0
+    m_maxSlope: 90
+    m_slopeRange: 90
+    m_checkHeightType: 3
+    m_seaLevel: 0
+    m_minSpawnHeight: 61.975525
+    m_maxSpawnHeight: 195.37552
+    m_minHeight: -20
+    m_maxHeight: 5000
+    m_heightRange: 133.4
+    m_bottomBoundary: -100
+    m_topBoundary: 5024
+    m_checkTextures: 0
+    m_textureStrength: 0.7686275
+    m_textureRange: 0
+    m_selectedTextureIdx: 0
+    m_selectedTextureName: SandBase_D
+    m_maxSelectedTexture: 7
+    m_checkMask: 0
+    m_checkMaskType: 0
+    m_maskFractal:
+      m_enabled: 0
+      m_noiseFalloff:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_noiseType: 0
+      m_strength: 1
+      m_seed: 0
+      m_octaves: 8
+      m_persistence: 0.65
+      m_frequency: 0.9
+      m_lacunarity: 1.5
+      m_amplitude: 1
+      m_offset: {x: 0, y: 0}
+      m_warp: 0
+      m_warp0: 0
+      m_damp: 0
+      m_damp0: 0
+      m_dampScale: 0
+      m_ridgedOffset: 0
+    m_midMaskFractal: 0.5
+    m_maskFractalRange: 0.5
+    m_maskImagePaletteID: -2147483648
+    m_generateBufferData: 0
+    m_maskImage: {fileID: 0}
+    m_maskInvert: 0
+    m_imageFilterColor: {r: 0, g: 0, b: 0, a: 0}
+    m_imageFilterFuzzyMatch: 0
+    m_constrainWithinMaskedBounds: 0
+    m_invertMaskedAlpha: 0
+    m_successOnMaskedAlpha: 0
+    m_scaleOnMaskedAlpha: 0
+    m_minScaleOnMaskedAlpha: 0
+    m_maxScaleOnMaskedAlpha: 0
+    m_overrideChildren: 0
+    m_overrideForceSpawn: 0
+    m_overrideApplies: 0
+    m_overrideVirginCheckType: 0
+    m_overrideCheckChildren: 0
+    m_overrideSpawnCollisionLayers: 0
+    m_overrideBoundsBorder: 0
+    m_overrideRayExtents: 0
+    m_overrideCheckHeight: 0
+    m_overrideSeaLevel: 0
+    m_overrideMinMaxHeight: 0
+    m_overrideMinMaxSpawnHeight: 0
+    m_overrideHeightVariance: 0
+    m_overrideCheckSlope: 0
+    m_overrideMinMaxSlope: 0
+    m_overrideMinMaxSpawnSlope: 0
+    m_overrideSlopeVariance: 0
+    m_overrideCheckTextures: 0
+    m_overrideSelectedTextureIdx: 0
+    m_overrideTextureStrength: 0
+    m_overrideTextureVariance: 0
+    m_overrideCheckMask: 0
+    m_overrideCheckMaskType: 0
+    m_overrideMaskFractalSeed: 0
+    m_overrideMaskFractalOctaves: 0
+    m_overrideMaskFractalFrequency: 0
+    m_overrideMaskFractalPersistence: 0
+    m_overrideMaskFractalLacunarity: 0
+    m_overrideMidMaskFractal: 0
+    m_overrideMaskFractalRange: 0
+    m_overrideMaskInvert: 0
+    m_overrideMaskImage: 0
+    m_overrideImageFilterColor: 0
+    m_overrideImageFilterFuzzyMatch: 0
+    m_overrideConstrainWithinMaskedBounds: 0
+    m_overrideInvertMaskedAlpha: 0
+    m_overrideSuccessOnMaskedAlpha: 0
+    m_overrideScaleOnMaskedAlpha: 0
+    m_overrideMinScaleOnMaskedAlpha: 0
+    m_overrideMaxScaleOnMaskedAlpha: 0
+    m_disableCheckMask: 0
+    m_isDirty: 1
+    m_isMaskDirty: 0
+  m_rangesOriginLocation: {x: -47.82788, y: 128.67552, z: 105.27948}
+  m_rangesOriginNormal: {x: -0.12194923, y: 0.9755343, z: -0.18292385}
+  m_spawnType: 1
+  m_spawnMode: 0
+  m_flowRate: 1
+  m_rotationY: 0
+  m_name: Lantern_01
+  m_mergeSpawns: 1
+  m_spawnToTarget: 1
+  m_sortPrototypes: 0
+  m_spawnPrototypes:
+  - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+    m_spawnerPaletteID: -2147483648
+    m_spawnerData: {fileID: -7428237789700073803}
+    m_id: 0
+    m_name: Lantern_01
+    m_isActive: 1
+    m_size: {x: 0, y: 0, z: 0}
+    m_extents: {x: 0, y: 0, z: 0}
+    m_boundsBorder: 0
+    m_forwardRotation: 0
+    m_hasColliders: 0
+    m_hasMeshes: 0
+    m_hasRigidBody: 0
+    m_displayedInEditor: 0
+    m_showAdvancedOptions: 0
+    m_resourceIDs: 00000000
+    m_resources:
+    - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+      m_name: Lantern_01
+      m_assetID: 4a914c7060e48944a860a83e52eeaa76
+      m_prefabPaletteID: -2147483647
+      m_assetName: Lantern_01
+      m_resourceType: 0
+      m_successRate: 1
+      m_conformToSlope: 0
+      m_snapToGround: 0
+      m_minOffset: {x: 0, y: 0, z: 0}
+      m_maxOffset: {x: 0, y: 0, z: 0}
+      m_minRotation: {x: 0, y: 0, z: 0}
+      m_maxRotation: {x: 0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_detailPrototypeData:
+        bendFactor: 0
+        prototypeTexturePaletteID: -2147483648
+        prototypeGameObjectPaletteID: -2147483648
+        prototypeTexture: {fileID: 0}
+        dryColor: {r: 0, g: 0, b: 0, a: 0}
+        healthyColor: {r: 0, g: 0, b: 0, a: 0}
+        maxHeight: 0
+        maxWidth: 0
+        minHeight: 0
+        minWidth: 0
+        noiseSpread: 0
+        prototype: {fileID: 0}
+        renderMode: 0
+        usePrototypeMesh: 0
+      m_texturePrototypeData:
+        terrainTextureAssetPaletteID: -2147483648
+        terrainTexture2DAsset: {fileID: 0}
+      m_addColliderToAabb: 1
+      m_spawnCriteria:
+        m_checkRange: 0
+        m_forceSpawn: 0
+        m_checkCollisionType: 2
+        m_spawnCollisionLayers:
+          serializedVersion: 2
+          m_Bits: 3842
+        m_blendAmount: 0.001
+        m_boundsExtents: 0.001
+        m_checkSlopeType: 1
+        m_minSpawnSlope: 0
+        m_maxSpawnSlope: 57.700043
+        m_minSlope: 0
+        m_maxSlope: 90
+        m_slopeRange: 90
+        m_checkHeightType: 3
+        m_seaLevel: 0
+        m_minSpawnHeight: 61.975525
+        m_maxSpawnHeight: 195.37552
+        m_minHeight: -20
+        m_maxHeight: 5000
+        m_heightRange: 133.4
+        m_bottomBoundary: -20
+        m_topBoundary: 5000
+        m_checkTextures: 0
+        m_textureStrength: 0.7686275
+        m_textureRange: 0
+        m_selectedTextureIdx: 0
+        m_selectedTextureName: 
+        m_maxSelectedTexture: 1
+        m_checkMask: 0
+        m_checkMaskType: 0
+        m_maskFractal:
+          m_enabled: 0
+          m_noiseFalloff:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_noiseType: 0
+          m_strength: 1
+          m_seed: 0
+          m_octaves: 8
+          m_persistence: 0.65
+          m_frequency: 0.9
+          m_lacunarity: 1.5
+          m_amplitude: 1
+          m_offset: {x: 0, y: 0}
+          m_warp: 0
+          m_warp0: 0
+          m_damp: 0
+          m_damp0: 0
+          m_dampScale: 0
+          m_ridgedOffset: 0
+        m_midMaskFractal: 0.5
+        m_maskFractalRange: 0.5
+        m_maskImagePaletteID: -2147483648
+        m_generateBufferData: 0
+        m_maskImage: {fileID: 0}
+        m_maskInvert: 0
+        m_imageFilterColor: {r: 0, g: 0, b: 0, a: 0}
+        m_imageFilterFuzzyMatch: 0
+        m_constrainWithinMaskedBounds: 0
+        m_invertMaskedAlpha: 0
+        m_successOnMaskedAlpha: 0
+        m_scaleOnMaskedAlpha: 0
+        m_minScaleOnMaskedAlpha: 0
+        m_maxScaleOnMaskedAlpha: 0
+        m_overrideChildren: 0
+        m_overrideForceSpawn: 0
+        m_overrideApplies: 0
+        m_overrideVirginCheckType: 0
+        m_overrideCheckChildren: 0
+        m_overrideSpawnCollisionLayers: 0
+        m_overrideBoundsBorder: 0
+        m_overrideRayExtents: 0
+        m_overrideCheckHeight: 0
+        m_overrideSeaLevel: 0
+        m_overrideMinMaxHeight: 0
+        m_overrideMinMaxSpawnHeight: 0
+        m_overrideHeightVariance: 0
+        m_overrideCheckSlope: 0
+        m_overrideMinMaxSlope: 0
+        m_overrideMinMaxSpawnSlope: 0
+        m_overrideSlopeVariance: 0
+        m_overrideCheckTextures: 0
+        m_overrideSelectedTextureIdx: 0
+        m_overrideTextureStrength: 0
+        m_overrideTextureVariance: 0
+        m_overrideCheckMask: 0
+        m_overrideCheckMaskType: 0
+        m_overrideMaskFractalSeed: 0
+        m_overrideMaskFractalOctaves: 0
+        m_overrideMaskFractalFrequency: 0
+        m_overrideMaskFractalPersistence: 0
+        m_overrideMaskFractalLacunarity: 0
+        m_overrideMidMaskFractal: 0
+        m_overrideMaskFractalRange: 0
+        m_overrideMaskInvert: 0
+        m_overrideMaskImage: 0
+        m_overrideImageFilterColor: 0
+        m_overrideImageFilterFuzzyMatch: 0
+        m_overrideConstrainWithinMaskedBounds: 0
+        m_overrideInvertMaskedAlpha: 0
+        m_overrideSuccessOnMaskedAlpha: 0
+        m_overrideScaleOnMaskedAlpha: 0
+        m_overrideMinScaleOnMaskedAlpha: 0
+        m_overrideMaxScaleOnMaskedAlpha: 0
+        m_disableCheckMask: 0
+        m_isDirty: 1
+        m_isMaskDirty: 0
+      m_decoratorTypes: []
+      m_decoratorEntries: []
+      m_physicsEnabled: 0
+      m_hasHeights: 0
+      m_hasSubSpawner: 0
+      m_oneChildOf: 0
+      m_oneChildOfWeight: 1
+      m_spawnerPaletteID: -2147483648
+      m_subSpawnerPaletteID: -2147483648
+      m_spawnerData: {fileID: -7428237789700073803}
+      m_subSpawnerData: {fileID: 0}
+      m_static: 1
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 1
+      m_hasRootCollider: 1
+      m_hasMeshes: 1
+      m_hasRigidbody: 0
+      m_spawnFlags:
+        m_flagLightmapStatic: 1
+        m_flagBatchingStatic: 1
+        m_flagOccludeeStatic: 1
+        m_flagOccluderStatic: 1
+        m_flagNavigationStatic: 1
+        m_flagOffMeshLinkGeneration: 1
+        m_flagReflectionProbeStatic: 1
+        m_flagMovingObject: 0
+        m_flagCanBeOptimised: 1
+        m_flagForceOptimise: 0
+        m_flagIsOutdoorObject: 1
+        m_useColliderBounds: 0
+        m_applyToChildren: 0
+      m_basePosition: {x: 0, y: 0, z: 0}
+      m_baseRotation: {x: 0, y: 0, z: 0}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 1, y: 1.5550871, z: 1}
+      m_boundsCenter: {x: -0.0033340454, y: 0.7744365, z: 0}
+      m_baseColliderCenter: {x: -0.0033340454, y: 0.77188534, z: 0}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 0.6480942, y: 1.5437707, z: 0.6427231}
+      m_instancesSpawned: 400
+      m_containerOnly: 0
+      m_parentID: -1
+      m_id: 0
+      m_childrenIDs: 
+      m_brushTextureIDs: 
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_prefab: {fileID: 3732823487967909960, guid: 4a914c7060e48944a860a83e52eeaa76,
+        type: 3}
+      m_template: {fileID: 0}
+      m_nextSuccess: 1
+      m_nextPosition: {x: 0, y: 0, z: 0}
+      m_nextRotation: {x: 0, y: 0, z: 0}
+      m_nextScale: {x: 1, y: 1, z: 1}
+      m_abortSpawn: 0
+      m_showSpawnCriteriaOverrides: 0
+    m_resourceIDCount: 1
+  - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+    m_spawnerPaletteID: -2147483648
+    m_spawnerData: {fileID: -7428237789700073803}
+    m_id: 2
+    m_name: Lantern_03
+    m_isActive: 1
+    m_size: {x: 0, y: 0, z: 0}
+    m_extents: {x: 0, y: 0, z: 0}
+    m_boundsBorder: 0
+    m_forwardRotation: 0
+    m_hasColliders: 0
+    m_hasMeshes: 0
+    m_hasRigidBody: 0
+    m_displayedInEditor: 0
+    m_showAdvancedOptions: 0
+    m_resourceIDs: 00000000
+    m_resources:
+    - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+      m_name: Lantern_03
+      m_assetID: 6aa6daa49af5ccc48bf548170cd83ada
+      m_prefabPaletteID: -2147483645
+      m_assetName: Lantern_03
+      m_resourceType: 0
+      m_successRate: 1
+      m_conformToSlope: 0
+      m_snapToGround: 0
+      m_minOffset: {x: 0, y: 0, z: 0}
+      m_maxOffset: {x: 0, y: 0, z: 0}
+      m_minRotation: {x: 0, y: 0, z: 0}
+      m_maxRotation: {x: 0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_detailPrototypeData:
+        bendFactor: 0
+        prototypeTexturePaletteID: -2147483648
+        prototypeGameObjectPaletteID: -2147483648
+        prototypeTexture: {fileID: 0}
+        dryColor: {r: 0, g: 0, b: 0, a: 0}
+        healthyColor: {r: 0, g: 0, b: 0, a: 0}
+        maxHeight: 0
+        maxWidth: 0
+        minHeight: 0
+        minWidth: 0
+        noiseSpread: 0
+        prototype: {fileID: 0}
+        renderMode: 0
+        usePrototypeMesh: 0
+      m_texturePrototypeData:
+        terrainTextureAssetPaletteID: -2147483648
+        terrainTexture2DAsset: {fileID: 0}
+      m_addColliderToAabb: 1
+      m_spawnCriteria:
+        m_checkRange: 0
+        m_forceSpawn: 0
+        m_checkCollisionType: 2
+        m_spawnCollisionLayers:
+          serializedVersion: 2
+          m_Bits: 3842
+        m_blendAmount: 0.001
+        m_boundsExtents: 0.001
+        m_checkSlopeType: 1
+        m_minSpawnSlope: 0
+        m_maxSpawnSlope: 57.700043
+        m_minSlope: 0
+        m_maxSlope: 90
+        m_slopeRange: 90
+        m_checkHeightType: 3
+        m_seaLevel: 0
+        m_minSpawnHeight: 61.975525
+        m_maxSpawnHeight: 195.37552
+        m_minHeight: -20
+        m_maxHeight: 5000
+        m_heightRange: 133.4
+        m_bottomBoundary: -20
+        m_topBoundary: 5000
+        m_checkTextures: 0
+        m_textureStrength: 0.7686275
+        m_textureRange: 0
+        m_selectedTextureIdx: 0
+        m_selectedTextureName: 
+        m_maxSelectedTexture: 1
+        m_checkMask: 0
+        m_checkMaskType: 0
+        m_maskFractal:
+          m_enabled: 0
+          m_noiseFalloff:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_noiseType: 0
+          m_strength: 1
+          m_seed: 0
+          m_octaves: 8
+          m_persistence: 0.65
+          m_frequency: 0.9
+          m_lacunarity: 1.5
+          m_amplitude: 1
+          m_offset: {x: 0, y: 0}
+          m_warp: 0
+          m_warp0: 0
+          m_damp: 0
+          m_damp0: 0
+          m_dampScale: 0
+          m_ridgedOffset: 0
+        m_midMaskFractal: 0.5
+        m_maskFractalRange: 0.5
+        m_maskImagePaletteID: -2147483648
+        m_generateBufferData: 0
+        m_maskImage: {fileID: 0}
+        m_maskInvert: 0
+        m_imageFilterColor: {r: 0, g: 0, b: 0, a: 0}
+        m_imageFilterFuzzyMatch: 0
+        m_constrainWithinMaskedBounds: 0
+        m_invertMaskedAlpha: 0
+        m_successOnMaskedAlpha: 0
+        m_scaleOnMaskedAlpha: 0
+        m_minScaleOnMaskedAlpha: 0
+        m_maxScaleOnMaskedAlpha: 0
+        m_overrideChildren: 0
+        m_overrideForceSpawn: 0
+        m_overrideApplies: 0
+        m_overrideVirginCheckType: 0
+        m_overrideCheckChildren: 0
+        m_overrideSpawnCollisionLayers: 0
+        m_overrideBoundsBorder: 0
+        m_overrideRayExtents: 0
+        m_overrideCheckHeight: 0
+        m_overrideSeaLevel: 0
+        m_overrideMinMaxHeight: 0
+        m_overrideMinMaxSpawnHeight: 0
+        m_overrideHeightVariance: 0
+        m_overrideCheckSlope: 0
+        m_overrideMinMaxSlope: 0
+        m_overrideMinMaxSpawnSlope: 0
+        m_overrideSlopeVariance: 0
+        m_overrideCheckTextures: 0
+        m_overrideSelectedTextureIdx: 0
+        m_overrideTextureStrength: 0
+        m_overrideTextureVariance: 0
+        m_overrideCheckMask: 0
+        m_overrideCheckMaskType: 0
+        m_overrideMaskFractalSeed: 0
+        m_overrideMaskFractalOctaves: 0
+        m_overrideMaskFractalFrequency: 0
+        m_overrideMaskFractalPersistence: 0
+        m_overrideMaskFractalLacunarity: 0
+        m_overrideMidMaskFractal: 0
+        m_overrideMaskFractalRange: 0
+        m_overrideMaskInvert: 0
+        m_overrideMaskImage: 0
+        m_overrideImageFilterColor: 0
+        m_overrideImageFilterFuzzyMatch: 0
+        m_overrideConstrainWithinMaskedBounds: 0
+        m_overrideInvertMaskedAlpha: 0
+        m_overrideSuccessOnMaskedAlpha: 0
+        m_overrideScaleOnMaskedAlpha: 0
+        m_overrideMinScaleOnMaskedAlpha: 0
+        m_overrideMaxScaleOnMaskedAlpha: 0
+        m_disableCheckMask: 0
+        m_isDirty: 1
+        m_isMaskDirty: 0
+      m_decoratorTypes: []
+      m_decoratorEntries: []
+      m_physicsEnabled: 0
+      m_hasHeights: 0
+      m_hasSubSpawner: 0
+      m_oneChildOf: 0
+      m_oneChildOfWeight: 1
+      m_spawnerPaletteID: -2147483648
+      m_subSpawnerPaletteID: -2147483648
+      m_spawnerData: {fileID: -7428237789700073803}
+      m_subSpawnerData: {fileID: 0}
+      m_static: 1
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 1
+      m_hasRootCollider: 1
+      m_hasMeshes: 1
+      m_hasRigidbody: 0
+      m_spawnFlags:
+        m_flagLightmapStatic: 1
+        m_flagBatchingStatic: 1
+        m_flagOccludeeStatic: 1
+        m_flagOccluderStatic: 1
+        m_flagNavigationStatic: 1
+        m_flagOffMeshLinkGeneration: 1
+        m_flagReflectionProbeStatic: 1
+        m_flagMovingObject: 0
+        m_flagCanBeOptimised: 1
+        m_flagForceOptimise: 0
+        m_flagIsOutdoorObject: 1
+        m_useColliderBounds: 0
+        m_applyToChildren: 0
+      m_basePosition: {x: 0, y: 0, z: 0}
+      m_baseRotation: {x: 0, y: 0, z: 0}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 1, y: 1.563871, z: 1}
+      m_boundsCenter: {x: 0, y: 0.7732293, z: 0.0000019073486}
+      m_baseColliderCenter: {x: 0, y: 0.77188534, z: 0.0000019073486}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 0.8447342, y: 1.5437707, z: 0.8591194}
+      m_instancesSpawned: 416
+      m_containerOnly: 0
+      m_parentID: -1
+      m_id: 0
+      m_childrenIDs: 
+      m_brushTextureIDs: 
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_prefab: {fileID: 3463436091055318273, guid: 6aa6daa49af5ccc48bf548170cd83ada,
+        type: 3}
+      m_template: {fileID: 0}
+      m_nextSuccess: 1
+      m_nextPosition: {x: 0, y: 0, z: 0}
+      m_nextRotation: {x: 0, y: 0, z: 0}
+      m_nextScale: {x: 1, y: 1, z: 1}
+      m_abortSpawn: 0
+      m_showSpawnCriteriaOverrides: 0
+    m_resourceIDCount: 1
+  - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+    m_spawnerPaletteID: -2147483648
+    m_spawnerData: {fileID: -7428237789700073803}
+    m_id: 4
+    m_name: Pedestal_01
+    m_isActive: 1
+    m_size: {x: 0, y: 0, z: 0}
+    m_extents: {x: 0, y: 0, z: 0}
+    m_boundsBorder: 0
+    m_forwardRotation: 0
+    m_hasColliders: 0
+    m_hasMeshes: 0
+    m_hasRigidBody: 0
+    m_displayedInEditor: 0
+    m_showAdvancedOptions: 0
+    m_resourceIDs: 00000000
+    m_resources:
+    - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+      m_name: Pedestal_01
+      m_assetID: 34506d9b25637a54f81c4d4e40e780c0
+      m_prefabPaletteID: -2147483643
+      m_assetName: Pedestal_01
+      m_resourceType: 0
+      m_successRate: 1
+      m_conformToSlope: 0
+      m_snapToGround: 0
+      m_minOffset: {x: 0, y: 0, z: 0}
+      m_maxOffset: {x: 0, y: 0, z: 0}
+      m_minRotation: {x: 0, y: 0, z: 0}
+      m_maxRotation: {x: 0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_detailPrototypeData:
+        bendFactor: 0
+        prototypeTexturePaletteID: -2147483648
+        prototypeGameObjectPaletteID: -2147483648
+        prototypeTexture: {fileID: 0}
+        dryColor: {r: 0, g: 0, b: 0, a: 0}
+        healthyColor: {r: 0, g: 0, b: 0, a: 0}
+        maxHeight: 0
+        maxWidth: 0
+        minHeight: 0
+        minWidth: 0
+        noiseSpread: 0
+        prototype: {fileID: 0}
+        renderMode: 0
+        usePrototypeMesh: 0
+      m_texturePrototypeData:
+        terrainTextureAssetPaletteID: -2147483648
+        terrainTexture2DAsset: {fileID: 0}
+      m_addColliderToAabb: 1
+      m_spawnCriteria:
+        m_checkRange: 0
+        m_forceSpawn: 0
+        m_checkCollisionType: 2
+        m_spawnCollisionLayers:
+          serializedVersion: 2
+          m_Bits: 3842
+        m_blendAmount: 0.001
+        m_boundsExtents: 0.001
+        m_checkSlopeType: 1
+        m_minSpawnSlope: 0
+        m_maxSpawnSlope: 57.700043
+        m_minSlope: 0
+        m_maxSlope: 90
+        m_slopeRange: 90
+        m_checkHeightType: 3
+        m_seaLevel: 0
+        m_minSpawnHeight: 61.975525
+        m_maxSpawnHeight: 195.37552
+        m_minHeight: -20
+        m_maxHeight: 5000
+        m_heightRange: 133.4
+        m_bottomBoundary: -20
+        m_topBoundary: 5000
+        m_checkTextures: 0
+        m_textureStrength: 0.7686275
+        m_textureRange: 0
+        m_selectedTextureIdx: 0
+        m_selectedTextureName: 
+        m_maxSelectedTexture: 1
+        m_checkMask: 0
+        m_checkMaskType: 0
+        m_maskFractal:
+          m_enabled: 0
+          m_noiseFalloff:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_noiseType: 0
+          m_strength: 1
+          m_seed: 0
+          m_octaves: 8
+          m_persistence: 0.65
+          m_frequency: 0.9
+          m_lacunarity: 1.5
+          m_amplitude: 1
+          m_offset: {x: 0, y: 0}
+          m_warp: 0
+          m_warp0: 0
+          m_damp: 0
+          m_damp0: 0
+          m_dampScale: 0
+          m_ridgedOffset: 0
+        m_midMaskFractal: 0.5
+        m_maskFractalRange: 0.5
+        m_maskImagePaletteID: -2147483648
+        m_generateBufferData: 0
+        m_maskImage: {fileID: 0}
+        m_maskInvert: 0
+        m_imageFilterColor: {r: 0, g: 0, b: 0, a: 0}
+        m_imageFilterFuzzyMatch: 0
+        m_constrainWithinMaskedBounds: 0
+        m_invertMaskedAlpha: 0
+        m_successOnMaskedAlpha: 0
+        m_scaleOnMaskedAlpha: 0
+        m_minScaleOnMaskedAlpha: 0
+        m_maxScaleOnMaskedAlpha: 0
+        m_overrideChildren: 0
+        m_overrideForceSpawn: 0
+        m_overrideApplies: 0
+        m_overrideVirginCheckType: 0
+        m_overrideCheckChildren: 0
+        m_overrideSpawnCollisionLayers: 0
+        m_overrideBoundsBorder: 0
+        m_overrideRayExtents: 0
+        m_overrideCheckHeight: 0
+        m_overrideSeaLevel: 0
+        m_overrideMinMaxHeight: 0
+        m_overrideMinMaxSpawnHeight: 0
+        m_overrideHeightVariance: 0
+        m_overrideCheckSlope: 0
+        m_overrideMinMaxSlope: 0
+        m_overrideMinMaxSpawnSlope: 0
+        m_overrideSlopeVariance: 0
+        m_overrideCheckTextures: 0
+        m_overrideSelectedTextureIdx: 0
+        m_overrideTextureStrength: 0
+        m_overrideTextureVariance: 0
+        m_overrideCheckMask: 0
+        m_overrideCheckMaskType: 0
+        m_overrideMaskFractalSeed: 0
+        m_overrideMaskFractalOctaves: 0
+        m_overrideMaskFractalFrequency: 0
+        m_overrideMaskFractalPersistence: 0
+        m_overrideMaskFractalLacunarity: 0
+        m_overrideMidMaskFractal: 0
+        m_overrideMaskFractalRange: 0
+        m_overrideMaskInvert: 0
+        m_overrideMaskImage: 0
+        m_overrideImageFilterColor: 0
+        m_overrideImageFilterFuzzyMatch: 0
+        m_overrideConstrainWithinMaskedBounds: 0
+        m_overrideInvertMaskedAlpha: 0
+        m_overrideSuccessOnMaskedAlpha: 0
+        m_overrideScaleOnMaskedAlpha: 0
+        m_overrideMinScaleOnMaskedAlpha: 0
+        m_overrideMaxScaleOnMaskedAlpha: 0
+        m_disableCheckMask: 0
+        m_isDirty: 1
+        m_isMaskDirty: 0
+      m_decoratorTypes: []
+      m_decoratorEntries: []
+      m_physicsEnabled: 0
+      m_hasHeights: 0
+      m_hasSubSpawner: 0
+      m_oneChildOf: 0
+      m_oneChildOfWeight: 1
+      m_spawnerPaletteID: -2147483648
+      m_subSpawnerPaletteID: -2147483648
+      m_spawnerData: {fileID: -7428237789700073803}
+      m_subSpawnerData: {fileID: 0}
+      m_static: 1
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 1
+      m_hasRootCollider: 1
+      m_hasMeshes: 1
+      m_hasRigidbody: 0
+      m_spawnFlags:
+        m_flagLightmapStatic: 1
+        m_flagBatchingStatic: 1
+        m_flagOccludeeStatic: 1
+        m_flagOccluderStatic: 1
+        m_flagNavigationStatic: 1
+        m_flagOffMeshLinkGeneration: 1
+        m_flagReflectionProbeStatic: 1
+        m_flagMovingObject: 0
+        m_flagCanBeOptimised: 1
+        m_flagForceOptimise: 0
+        m_flagIsOutdoorObject: 1
+        m_useColliderBounds: 0
+        m_applyToChildren: 0
+      m_basePosition: {x: 0, y: 0, z: 0}
+      m_baseRotation: {x: 0, y: 0, z: 0}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 1, y: 1.3707681, z: 1}
+      m_boundsCenter: {x: -0.0033340454, y: 0.68538404, z: 0}
+      m_baseColliderCenter: {x: -0.0033340454, y: 0.68538404, z: 0}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 0.6480942, y: 1.3707681, z: 0.6427231}
+      m_instancesSpawned: 430
+      m_containerOnly: 0
+      m_parentID: -1
+      m_id: 0
+      m_childrenIDs: 
+      m_brushTextureIDs: 
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_prefab: {fileID: 5962840973795164716, guid: 34506d9b25637a54f81c4d4e40e780c0,
+        type: 3}
+      m_template: {fileID: 0}
+      m_nextSuccess: 1
+      m_nextPosition: {x: 0, y: 0, z: 0}
+      m_nextRotation: {x: 0, y: 0, z: 0}
+      m_nextScale: {x: 1, y: 1, z: 1}
+      m_abortSpawn: 0
+      m_showSpawnCriteriaOverrides: 0
+    m_resourceIDCount: 1
+  - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+    m_spawnerPaletteID: -2147483648
+    m_spawnerData: {fileID: -7428237789700073803}
+    m_id: 5
+    m_name: Pedestal_02
+    m_isActive: 1
+    m_size: {x: 0, y: 0, z: 0}
+    m_extents: {x: 0, y: 0, z: 0}
+    m_boundsBorder: 0
+    m_forwardRotation: 0
+    m_hasColliders: 0
+    m_hasMeshes: 0
+    m_hasRigidBody: 0
+    m_displayedInEditor: 0
+    m_showAdvancedOptions: 0
+    m_resourceIDs: 00000000
+    m_resources:
+    - m_palette: {fileID: 11400000, guid: 9cca2dba8a7f05143ace85e3ff0dfcbe, type: 2}
+      m_name: Pedestal_02
+      m_assetID: b1595b563b97f104f90af1f70332dd52
+      m_prefabPaletteID: -2147483642
+      m_assetName: Pedestal_02
+      m_resourceType: 0
+      m_successRate: 1
+      m_conformToSlope: 0
+      m_snapToGround: 0
+      m_minOffset: {x: 0, y: 0, z: 0}
+      m_maxOffset: {x: 0, y: 0, z: 0}
+      m_minRotation: {x: 0, y: 0, z: 0}
+      m_maxRotation: {x: 0, y: 0, z: 0}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_detailPrototypeData:
+        bendFactor: 0
+        prototypeTexturePaletteID: -2147483648
+        prototypeGameObjectPaletteID: -2147483648
+        prototypeTexture: {fileID: 0}
+        dryColor: {r: 0, g: 0, b: 0, a: 0}
+        healthyColor: {r: 0, g: 0, b: 0, a: 0}
+        maxHeight: 0
+        maxWidth: 0
+        minHeight: 0
+        minWidth: 0
+        noiseSpread: 0
+        prototype: {fileID: 0}
+        renderMode: 0
+        usePrototypeMesh: 0
+      m_texturePrototypeData:
+        terrainTextureAssetPaletteID: -2147483648
+        terrainTexture2DAsset: {fileID: 0}
+      m_addColliderToAabb: 1
+      m_spawnCriteria:
+        m_checkRange: 0
+        m_forceSpawn: 0
+        m_checkCollisionType: 2
+        m_spawnCollisionLayers:
+          serializedVersion: 2
+          m_Bits: 3842
+        m_blendAmount: 0.001
+        m_boundsExtents: 0.001
+        m_checkSlopeType: 1
+        m_minSpawnSlope: 0
+        m_maxSpawnSlope: 57.700043
+        m_minSlope: 0
+        m_maxSlope: 90
+        m_slopeRange: 90
+        m_checkHeightType: 3
+        m_seaLevel: 0
+        m_minSpawnHeight: 61.975525
+        m_maxSpawnHeight: 195.37552
+        m_minHeight: -20
+        m_maxHeight: 5000
+        m_heightRange: 133.4
+        m_bottomBoundary: -20
+        m_topBoundary: 5000
+        m_checkTextures: 0
+        m_textureStrength: 0.7686275
+        m_textureRange: 0
+        m_selectedTextureIdx: 0
+        m_selectedTextureName: 
+        m_maxSelectedTexture: 1
+        m_checkMask: 0
+        m_checkMaskType: 0
+        m_maskFractal:
+          m_enabled: 0
+          m_noiseFalloff:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          m_noiseType: 0
+          m_strength: 1
+          m_seed: 0
+          m_octaves: 8
+          m_persistence: 0.65
+          m_frequency: 0.9
+          m_lacunarity: 1.5
+          m_amplitude: 1
+          m_offset: {x: 0, y: 0}
+          m_warp: 0
+          m_warp0: 0
+          m_damp: 0
+          m_damp0: 0
+          m_dampScale: 0
+          m_ridgedOffset: 0
+        m_midMaskFractal: 0.5
+        m_maskFractalRange: 0.5
+        m_maskImagePaletteID: -2147483648
+        m_generateBufferData: 0
+        m_maskImage: {fileID: 0}
+        m_maskInvert: 0
+        m_imageFilterColor: {r: 0, g: 0, b: 0, a: 0}
+        m_imageFilterFuzzyMatch: 0
+        m_constrainWithinMaskedBounds: 0
+        m_invertMaskedAlpha: 0
+        m_successOnMaskedAlpha: 0
+        m_scaleOnMaskedAlpha: 0
+        m_minScaleOnMaskedAlpha: 0
+        m_maxScaleOnMaskedAlpha: 0
+        m_overrideChildren: 0
+        m_overrideForceSpawn: 0
+        m_overrideApplies: 0
+        m_overrideVirginCheckType: 0
+        m_overrideCheckChildren: 0
+        m_overrideSpawnCollisionLayers: 0
+        m_overrideBoundsBorder: 0
+        m_overrideRayExtents: 0
+        m_overrideCheckHeight: 0
+        m_overrideSeaLevel: 0
+        m_overrideMinMaxHeight: 0
+        m_overrideMinMaxSpawnHeight: 0
+        m_overrideHeightVariance: 0
+        m_overrideCheckSlope: 0
+        m_overrideMinMaxSlope: 0
+        m_overrideMinMaxSpawnSlope: 0
+        m_overrideSlopeVariance: 0
+        m_overrideCheckTextures: 0
+        m_overrideSelectedTextureIdx: 0
+        m_overrideTextureStrength: 0
+        m_overrideTextureVariance: 0
+        m_overrideCheckMask: 0
+        m_overrideCheckMaskType: 0
+        m_overrideMaskFractalSeed: 0
+        m_overrideMaskFractalOctaves: 0
+        m_overrideMaskFractalFrequency: 0
+        m_overrideMaskFractalPersistence: 0
+        m_overrideMaskFractalLacunarity: 0
+        m_overrideMidMaskFractal: 0
+        m_overrideMaskFractalRange: 0
+        m_overrideMaskInvert: 0
+        m_overrideMaskImage: 0
+        m_overrideImageFilterColor: 0
+        m_overrideImageFilterFuzzyMatch: 0
+        m_overrideConstrainWithinMaskedBounds: 0
+        m_overrideInvertMaskedAlpha: 0
+        m_overrideSuccessOnMaskedAlpha: 0
+        m_overrideScaleOnMaskedAlpha: 0
+        m_overrideMinScaleOnMaskedAlpha: 0
+        m_overrideMaxScaleOnMaskedAlpha: 0
+        m_disableCheckMask: 0
+        m_isDirty: 1
+        m_isMaskDirty: 0
+      m_decoratorTypes: []
+      m_decoratorEntries: []
+      m_physicsEnabled: 0
+      m_hasHeights: 0
+      m_hasSubSpawner: 0
+      m_oneChildOf: 0
+      m_oneChildOfWeight: 1
+      m_spawnerPaletteID: -2147483648
+      m_subSpawnerPaletteID: -2147483648
+      m_spawnerData: {fileID: -7428237789700073803}
+      m_subSpawnerData: {fileID: 0}
+      m_static: 1
+      m_opacity: 1
+      m_targetStrength: 1
+      m_terrainProtoIdx: 0
+      m_hasColliders: 1
+      m_hasRootCollider: 1
+      m_hasMeshes: 1
+      m_hasRigidbody: 0
+      m_spawnFlags:
+        m_flagLightmapStatic: 1
+        m_flagBatchingStatic: 1
+        m_flagOccludeeStatic: 1
+        m_flagOccluderStatic: 1
+        m_flagNavigationStatic: 1
+        m_flagOffMeshLinkGeneration: 1
+        m_flagReflectionProbeStatic: 1
+        m_flagMovingObject: 0
+        m_flagCanBeOptimised: 1
+        m_flagForceOptimise: 0
+        m_flagIsOutdoorObject: 1
+        m_useColliderBounds: 0
+        m_applyToChildren: 0
+      m_basePosition: {x: 0, y: 0, z: 0}
+      m_baseRotation: {x: 0, y: 0, z: 0}
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 1, y: 1.3769367, z: 1}
+      m_boundsCenter: {x: -0.0000009536743, y: 0.68846834, z: -0.000000059604645}
+      m_baseColliderCenter: {x: -0.0000009536743, y: 0.68846834, z: -0.000000059604645}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 0.8447342, y: 1.3769367, z: 0.85912323}
+      m_instancesSpawned: 412
+      m_containerOnly: 0
+      m_parentID: -1
+      m_id: 0
+      m_childrenIDs: 
+      m_brushTextureIDs: 
+      m_brushTextures: []
+      m_brushTXIndex: 0
+      m_baseBrush:
+        m_size: 0
+        m_strength: []
+        m_brush: {fileID: 0}
+      m_prefab: {fileID: 7143402339705128161, guid: b1595b563b97f104f90af1f70332dd52,
+        type: 3}
+      m_template: {fileID: 0}
+      m_nextSuccess: 1
+      m_nextPosition: {x: 0, y: 0, z: 0}
+      m_nextRotation: {x: 0, y: 0, z: 0}
+      m_nextScale: {x: 1, y: 1, z: 1}
+      m_abortSpawn: 0
+      m_showSpawnCriteriaOverrides: 0
+    m_resourceIDCount: 1
+  m_hasGameObjectProtos: 1
+  m_hasTerrainTrees: 0
+  m_hasTerrainGrass: 0
+  m_hasTerrainTextures: 0
+  m_hasTerrainHeights: 0
+  m_hasActiveGameObjects: 1
+  m_hasActiveTerrainTrees: 0
+  m_hasActiveTerrainGrass: 0
+  m_hasActiveTerrainTextures: 0
+  m_hasActiveTerrainHeights: 0
+  m_spawnTarget: {fileID: 0}
+  m_spawnOriginLocation: {x: 100.928925, y: 145.0848, z: 144.92886}
+  m_spawnOriginNormal: {x: 0, y: 1, z: 0}
+  m_spawnOriginObjectID: 31718
+  m_spawnOriginIsTerrain: 1
+  m_spawnOriginGroundTransform: {fileID: 0}
+  m_minInstances: 1
+  m_maxInstances: 1
+  m_throwDistance: 5
+  m_spawnRange: 50
+  m_spawnRangeShape: 0
+  m_hasSeaLevelBeenSet: 0
+  m_getSeaLevel: 0
+  m_useLargeRanges: 0
+  m_randomSeed: 413323
+  m_physicsType: 0
+  m_isProcessing: 0
+  m_spawnParent: {fileID: 0}
+  m_spawnProgress: {fileID: 0}
+  m_turnedOnAutoSyncTransforms: 0
+  m_spawnDirty: 0
+  m_lastSpawnPosition: {x: -47.82788, y: 128.67552, z: 105.27948}
+  m_spawnCalls:
+  - m_location: {x: -47.82788, y: 128.67552, z: 105.27948}
+    m_rotation: {x: 0, y: 0, z: 0}
+    m_normal: {x: -0.12194923, y: 0.9755343, z: -0.18292385}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 0
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 0
+    m_resourceEntities:
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -49.069305, y: 128.86246, z: 107.08099}
+    m_spawnDepth: 0
+    m_spawnRange: 50
+    m_throwDistance: -1
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 308.12292
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 0
+  m_lastSpawnedObject: {fileID: 0}
+  m_probeParent: {fileID: 0}
+  m_spawnOriginBounds:
+    m_Center: {x: 100.928925, y: 144.96867, z: 144.92886}
+    m_Extent: {x: 25, y: 2500, z: 25}
+  m_visualizationActive: 0
+  m_visualizationFixed: 0
+  m_physicsSettings:
+    m_iterations: 1000
+    m_stepSize: 0.05
+    m_spawnOffsetY: 0.3
+    m_minHeightY: -10
+  m_prototypeIDPool: 0100000003000000
+  m_lastSpawnCalls:
+  - m_location: {x: -95.02002, y: 122.91376, z: 118.99994}
+    m_rotation: {x: 0, y: 269.71307, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -95.020035, y: 122.91375, z: 118.99995}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 109.180466
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -103.106995, y: 122.46954, z: 120.475525}
+    m_rotation: {x: 0, y: 294.26767, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -103.107, y: 122.435036, z: 120.47551}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 204.15977
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -109.96509, y: 122.23489, z: 125.5686}
+    m_rotation: {x: 0, y: 314.49414, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -109.96507, y: 122.22256, z: 125.56857}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 50.908844
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -113.91925, y: 121.80243, z: 131.4414}
+    m_rotation: {x: 0, y: 353.88928, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -113.919235, y: 121.78743, z: 131.44142}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 109.25311
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -97.6525, y: 122.926636, z: 111.141785}
+    m_rotation: {x: 0, y: 155.78406, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -97.65249, y: 122.95061, z: 111.1418}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 61.477077
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -93.33371, y: 123.13251, z: 101.92987}
+    m_rotation: {x: 0, y: 153.27838, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -93.33372, y: 123.133705, z: 101.92987}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 301.69705
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -88.42227, y: 123.44504, z: 92.93054}
+    m_rotation: {x: 0, y: 149.64229, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -88.422264, y: 123.44719, z: 92.93057}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 334.2221
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -81.80118, y: 124.073944, z: 85.90918}
+    m_rotation: {x: 0, y: 153.78122, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -81.80117, y: 124.04559, z: 85.909195}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 233.33946
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -82.245514, y: 124.4762, z: 78.74805}
+    m_rotation: {x: 0, y: 193.39185, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -82.24551, y: 124.46248, z: 78.74807}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 270.44254
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -85.85724, y: 124.66385, z: 70.91821}
+    m_rotation: {x: 0, y: 212.4953, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -85.85722, y: 124.65293, z: 70.91824}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 317.08954
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -90.93637, y: 124.66385, z: 65.01611}
+    m_rotation: {x: 0, y: 242.57959, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -90.93636, y: 124.6618, z: 65.0161}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 132.30724
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -100.63815, y: 124.48126, z: 58.44037}
+    m_rotation: {x: 0, y: 215.32727, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -100.63815, y: 124.4768, z: 58.440346}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 202.44693
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -105.53088, y: 124.57202, z: 48.324707}
+    m_rotation: {x: 0, y: 196.93753, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -105.53089, y: 124.54158, z: 48.324715}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 88.038574
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -108.0647, y: 124.69913, z: 38.601135}
+    m_rotation: {x: 0, y: 196.22687, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -108.06469, y: 124.67239, z: 38.601116}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 29.234718
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -110.963745, y: 124.7576, z: 28.681885}
+    m_rotation: {x: 0, y: 191.32944, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -110.963745, y: 124.7473, z: 28.68188}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 120.94024
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -112.96179, y: 124.35135, z: 18.683105}
+    m_rotation: {x: 0, y: 188.49484, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -112.9618, y: 124.34122, z: 18.683077}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 242.68628
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -113.20886, y: 124.10132, z: 7.9346313}
+    m_rotation: {x: 0, y: 177.44481, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -113.20885, y: 124.09262, z: 7.9346333}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 203.59962
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -111.84332, y: 124.13257, z: -2.7611694}
+    m_rotation: {x: 0, y: 165.94673, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -111.84332, y: 124.12221, z: -2.7611628}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 272.78455
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -108.184906, y: 124.37732, z: -12.915344}
+    m_rotation: {x: 0, y: 154.36601, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -108.184906, y: 124.367615, z: -12.915332}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 209.69948
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -101.36276, y: 124.88461, z: -22.031586}
+    m_rotation: {x: 0, y: 133.46626, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -101.36277, y: 124.86472, z: -22.031586}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 22.948847
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -91.46228, y: 125.423584, z: -28.808594}
+    m_rotation: {x: 0, y: 102.73236, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -91.46228, y: 125.39123, z: -28.808588}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 87.4122
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -78.90692, y: 125.94943, z: -22.551239}
+    m_rotation: {x: 0, y: 29.035103, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -78.90692, y: 125.88739, z: -22.551235}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 323.90582
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -75.64041, y: 126.331726, z: -18.728027}
+    m_rotation: {x: 0, y: 96.58206, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -75.64042, y: 126.287704, z: -18.728035}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 242.17586
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -64.291595, y: 126.353516, z: -11.615845}
+    m_rotation: {x: 0, y: 23.81111, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -64.2916, y: 126.32659, z: -11.615846}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 312.58365
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -61.401703, y: 125.91214, z: -1.1906128}
+    m_rotation: {x: 0, y: 11.723436, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -61.401703, y: 125.84969, z: -1.1906271}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 127.75743
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -58.5636, y: 125.57828, z: 7.121216}
+    m_rotation: {x: 0, y: 28.637255, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -58.563583, y: 125.51968, z: 7.12119}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 125.76024
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -53.365265, y: 125.50543, z: 14.804993}
+    m_rotation: {x: 0, y: 38.845768, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -53.365257, y: 125.482124, z: 14.804967}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 352.22763
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -46.865784, y: 125.69028, z: 21.846863}
+    m_rotation: {x: 0, y: 44.752037, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -46.865795, y: 125.65211, z: 21.846886}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 237.81328
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -39.826477, y: 126.05536, z: 29.257751}
+    m_rotation: {x: 0, y: 41.561752, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -39.82648, y: 126.00316, z: 29.257748}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 130.6612
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -32.636383, y: 126.71796, z: 35.879517}
+    m_rotation: {x: 0, y: 44.656654, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -32.636395, y: 126.70366, z: 35.879547}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 297.99832
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -26.784363, y: 127.72827, z: 46.3808}
+    m_rotation: {x: 0, y: 13.548365, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -26.784359, y: 127.68156, z: 46.380775}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 327.7682
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -25.552765, y: 128.69397, z: 56.583496}
+    m_rotation: {x: 0, y: 9.424656, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -25.552757, y: 128.6347, z: 56.583485}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 182.05432
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -21.977875, y: 129.54053, z: 62.270752}
+    m_rotation: {x: 0, y: 53.263638, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -21.977867, y: 129.50237, z: 62.27075}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 197.61113
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -14.46402, y: 130.11307, z: 66.18207}
+    m_rotation: {x: 0, y: 74.45247, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -14.464013, y: 130.1087, z: 66.18207}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 324.4324
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -6.240814, y: 130.47507, z: 66.51312}
+    m_rotation: {x: 0, y: 98.863174, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -6.2408237, y: 130.33672, z: 66.513115}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 184.73903
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 2.4925537, y: 130.34805, z: 64.05841}
+    m_rotation: {x: 0, y: 111.91395, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 2.4925272, y: 130.23174, z: 64.05843}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 142.80109
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 9.837097, y: 130.04938, z: 59.566772}
+    m_rotation: {x: 0, y: 131.1898, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 9.837116, y: 130.0172, z: 59.5668}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 127.3343
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 16.482971, y: 130.11908, z: 52.773132}
+    m_rotation: {x: 0, y: 138.23425, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 16.482944, y: 130.0805, z: 52.77311}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 167.9375
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 19.3208, y: 130.88284, z: 45.840942}
+    m_rotation: {x: 0, y: 172.0643, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 19.32083, y: 130.8496, z: 45.840965}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 307.07556
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 69.372925, y: 135.61783, z: 114.40845}
+    m_rotation: {x: 0, y: 156.28156, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 69.3729, y: 135.68405, z: 114.40842}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 176.77719
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 71.015076, y: 134.88632, z: 106.27478}
+    m_rotation: {x: 0, y: 179.72351, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 71.0151, y: 134.88258, z: 106.27477}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 289.0071
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 68.03754, y: 134.66446, z: 100.21289}
+    m_rotation: {x: 0, y: 222.03763, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 68.03751, y: 134.6567, z: 100.2129}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 135.49635
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 61.937744, y: 133.15579, z: 91.63959}
+    m_rotation: {x: 0, y: 214.21217, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 61.937744, y: 133.26286, z: 91.639565}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 251.72604
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 66.434326, y: 130.97916, z: 78.05658}
+    m_rotation: {x: 0, y: 124.77322, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 66.43435, y: 131.05151, z: 78.05657}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 261.95868
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 76.07391, y: 130.24405, z: 73.46277}
+    m_rotation: {x: 0, y: 114.71826, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 76.07393, y: 130.23154, z: 73.46277}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 309.86105
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 81.312256, y: 128.40363, z: 68.74402}
+    m_rotation: {x: 0, y: 154.5923, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 81.312256, y: 128.47694, z: 68.74401}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 316.42148
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 79.894165, y: 124.89331, z: 63.106873}
+    m_rotation: {x: 0, y: 210.09746, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 79.89418, y: 124.78014, z: 63.10685}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 265.55713
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 76.66986, y: 122.90103, z: 51.523804}
+    m_rotation: {x: 0, y: 178.2277, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 76.66987, y: 122.48816, z: 51.523827}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 201.90884
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 78.62207, y: 122.78827, z: 40.98706}
+    m_rotation: {x: 0, y: 167.60562, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 78.62209, y: 122.545555, z: 40.987083}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 355.99936
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 78.94177, y: 123.68106, z: 32.15515}
+    m_rotation: {x: 0, y: 183.66588, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 78.94176, y: 123.51477, z: 32.155144}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 122.09867
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 77.76459, y: 124.99188, z: 22.928772}
+    m_rotation: {x: 0, y: 193.50162, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 77.76458, y: 124.907135, z: 22.928776}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 307.2494
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 74.58142, y: 126.01315, z: 14.331116}
+    m_rotation: {x: 0, y: 205.1797, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 74.58144, y: 126.01062, z: 14.33109}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 80.033875
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 70.056885, y: 126.32022, z: 6.1017456}
+    m_rotation: {x: 0, y: 213.77092, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 70.05688, y: 126.320114, z: 6.1017494}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 231.27054
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 64.16168, y: 126.30261, z: -1.1201477}
+    m_rotation: {x: 0, y: 223.31052, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 64.16168, y: 126.29289, z: -1.1201336}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 210.67572
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 57.32068, y: 126.70642, z: -7.8922424}
+    m_rotation: {x: 0, y: 228.62695, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 57.32071, y: 126.69322, z: -7.8922496}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 347.86734
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 49.86499, y: 127.46216, z: -13.040192}
+    m_rotation: {x: 0, y: 241.76541, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 49.864986, y: 127.451675, z: -13.040194}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 91.05725
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 41.41974, y: 128.7399, z: -16.972107}
+    m_rotation: {x: 0, y: 251.45238, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 41.419754, y: 128.72087, z: -16.972107}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 143.84485
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 32.201416, y: 130.62643, z: -18.747711}
+    m_rotation: {x: 0, y: 260.0467, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 32.20139, y: 130.6288, z: -18.7477}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 262.18768
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 21.966675, y: 131.91989, z: -22.022675}
+    m_rotation: {x: 0, y: 248.89618, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 21.966644, y: 131.92072, z: -22.02268}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 153.22035
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 15.555969, y: 132.8859, z: -21.899475}
+    m_rotation: {x: 0, y: 296.2772, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 15.555996, y: 132.88474, z: -21.899479}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 327.6833
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 7.7962646, y: 133.87802, z: -17.082336}
+    m_rotation: {x: 0, y: 308.43695, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 7.7962694, y: 133.85918, z: -17.082352}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 125.19739
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 1.2732544, y: 134.72107, z: -10.594421}
+    m_rotation: {x: 0, y: 319.6723, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 1.2732515, y: 134.69197, z: -10.594428}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 205.242
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -4.9831543, y: 134.8306, z: -2.8924866}
+    m_rotation: {x: 0, y: 320.77396, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -4.983164, y: 134.81284, z: -2.8924766}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 254.2362
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -10.134918, y: 133.34244, z: 4.3969116}
+    m_rotation: {x: 0, y: 335.69217, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -10.134904, y: 133.34444, z: 4.396929}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 240.63144
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -13.213623, y: 130.56061, z: 13.517273}
+    m_rotation: {x: 0, y: 340.98413, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -13.2136135, y: 130.52484, z: 13.517288}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 8.259834
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -15.759216, y: 129.42688, z: 22.121826}
+    m_rotation: {x: 0, y: 355.31058, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -15.759216, y: 129.343, z: 22.12184}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 102.81357
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -14.665192, y: 129.47089, z: 30.766052}
+    m_rotation: {x: 0, y: 13.304926, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -14.665196, y: 129.38599, z: 30.766026}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 152.19864
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -11.616364, y: 130.23303, z: 39.450195}
+    m_rotation: {x: 0, y: 24.480844, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -11.61636, y: 130.16086, z: 39.450184}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 132.71037
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -7.3094788, y: 130.73862, z: 48.36664}
+    m_rotation: {x: 0, y: 25.878859, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -7.309471, y: 130.70537, z: 48.366646}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 250.5385
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -2.7330017, y: 130.75797, z: 56.75299}
+    m_rotation: {x: 0, y: 32.197006, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -2.7330017, y: 130.74506, z: 56.753017}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 0.009856834
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 2.8322754, y: 130.32047, z: 64.69049}
+    m_rotation: {x: 0, y: 36.543457, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 2.832264, y: 130.38963, z: 64.69048}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 44.1744
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 86.29199, y: 143.20416, z: 144.86108}
+    m_rotation: {x: 0, y: 242.31598, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 86.29199, y: 143.0876, z: 144.86111}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 160.77759
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 78.08441, y: 140.23566, z: 141.09149}
+    m_rotation: {x: 0, y: 255.79556, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 78.08442, y: 140.14491, z: 141.09148}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 161.00154
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 68.44507, y: 138.14752, z: 132.5935}
+    m_rotation: {x: 0, y: 208.3579, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 68.44508, y: 138.18625, z: 132.59354}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 244.6217
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 97.9801, y: 146.0568, z: 148.2732}
+    m_rotation: {x: 0, y: 337.94083, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 97.98013, y: 145.65465, z: 148.27318}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 197.9955
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 95.471375, y: 147.35876, z: 156.97333}
+    m_rotation: {x: 0, y: 351.17316, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 95.47139, y: 147.22444, z: 156.97331}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 326.91895
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 95.09375, y: 155.90237, z: 166.67444}
+    m_rotation: {x: 0, y: 355.1117, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 95.09377, y: 155.78333, z: 166.67447}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 67.08725
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 97.387634, y: 160.59363, z: 172.77905}
+    m_rotation: {x: 0, y: 41.771637, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 97.387634, y: 160.6257, z: 172.77905}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 273.71152
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 104.82898, y: 161.67847, z: 178.79614}
+    m_rotation: {x: 0, y: 47.728973, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 104.82898, y: 161.68544, z: 178.79613}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 271.85022
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 111.55011, y: 162.46725, z: 187.26697}
+    m_rotation: {x: 0, y: 35.725048, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 111.55012, y: 162.45842, z: 187.26698}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 189.91597
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 117.05542, y: 163.05505, z: 196.7832}
+    m_rotation: {x: 0, y: 21.005117, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 117.05542, y: 163.02742, z: 196.78323}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 44.463406
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 119.27637, y: 163.66452, z: 207.81439}
+    m_rotation: {x: 0, y: 2.4101331, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 119.27634, y: 163.54953, z: 207.8144}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 223.5367
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 116.02673, y: 164.34048, z: 219.76599}
+    m_rotation: {x: 0, y: 324.7525, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 116.0267, y: 163.78041, z: 219.76598}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 113.24834
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 107.794495, y: 165.21524, z: 227.43567}
+    m_rotation: {x: 0, y: 306.12442, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 107.79447, y: 165.26166, z: 227.43565}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 12.60249
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 100.8772, y: 167.92767, z: 233.15088}
+    m_rotation: {x: 0, y: 320.45004, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 100.87721, y: 167.8452, z: 233.15085}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 120.43699
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 99.15808, y: 170.05902, z: 237.27356}
+    m_rotation: {x: 0, y: 33.24767, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 99.1581, y: 170.11058, z: 237.27357}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 314.01672
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 98.729614, y: 171.22363, z: 250.68213}
+    m_rotation: {x: 0, y: 318.39682, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 98.72962, y: 171.14795, z: 250.68211}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 0.12350891
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 90.0907, y: 172.03128, z: 257.78778}
+    m_rotation: {x: 0, y: 300.7296, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 90.09068, y: 171.95827, z: 257.78778}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 130.84975
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 81.01721, y: 172.42343, z: 262.5149}
+    m_rotation: {x: 0, y: 297.39008, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 81.01722, y: 172.38438, z: 262.5149}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 230.25996
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 71.26587, y: 172.34119, z: 267.1294}
+    m_rotation: {x: 0, y: 285.59326, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 71.26587, y: 172.31866, z: 267.12943}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 94.29183
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 63.000122, y: 171.42206, z: 270.54248}
+    m_rotation: {x: 0, y: 300.195, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 63.000114, y: 171.3631, z: 270.5425}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 256.92905
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 54.348633, y: 170.68347, z: 275.87463}
+    m_rotation: {x: 0, y: 297.81976, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 54.348637, y: 170.586, z: 275.87463}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 201.09607
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 42.088318, y: 169.41898, z: 278.9076}
+    m_rotation: {x: 0, y: 257.04626, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 42.088306, y: 169.3106, z: 278.90762}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 219.96495
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 33.3172, y: 167.7237, z: 274.22888}
+    m_rotation: {x: 0, y: 256.07086, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 33.317192, y: 167.66922, z: 274.22885}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 299.24857
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 23.858582, y: 167.20801, z: 273.00586}
+    m_rotation: {x: 0, y: 262.56177, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 23.858553, y: 167.35976, z: 273.00586}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 186.8553
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 12.7283325, y: 166.91403, z: 268.3125}
+    m_rotation: {x: 0, y: 230.17554, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 12.7283535, y: 166.82993, z: 268.3125}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 290.36224
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 13.183655, y: 165.23816, z: 255.56311}
+    m_rotation: {x: 0, y: 167.99844, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 13.183673, y: 165.38979, z: 255.56314}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 11.836491
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 9.646179, y: 164.52197, z: 250.61224}
+    m_rotation: {x: 0, y: 223.8299, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 9.646194, y: 164.45847, z: 250.61224}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 327.67633
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 2.2982788, y: 164.03363, z: 244.09515}
+    m_rotation: {x: 0, y: 226.32352, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 2.2982733, y: 163.90799, z: 244.09515}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 256.66214
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -4.125, y: 163.30243, z: 234.17908}
+    m_rotation: {x: 0, y: 198.50996, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -4.1249924, y: 163.29428, z: 234.1791}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 329.83105
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -0.6178589, y: 162.79852, z: 221.36456}
+    m_rotation: {x: 0, y: 140.98766, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -0.61784863, y: 162.77806, z: 221.36456}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 224.81026
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 1.6553955, y: 162.1102, z: 217.19849}
+    m_rotation: {x: 0, y: 212.65802, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 1.655407, y: 162.04639, z: 217.19852}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 342.15512
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -3.6341248, y: 161.33057, z: 214.66162}
+    m_rotation: {x: 0, y: 267.54776, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -3.6341395, y: 161.2373, z: 214.66162}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 274.06366
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -14.262329, y: 160.51187, z: 214.07617}
+    m_rotation: {x: 0, y: 257.99704, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -14.262342, y: 160.43654, z: 214.07619}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 213.09323
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -24.949951, y: 158.37543, z: 210.10083}
+    m_rotation: {x: 0, y: 237.25504, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -24.949953, y: 158.36137, z: 210.10086}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 201.389
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -32.259094, y: 154.33054, z: 200.43292}
+    m_rotation: {x: 0, y: 203.11365, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -32.25908, y: 154.28726, z: 200.4329}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 271.8132
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -37.407776, y: 150.98495, z: 195.2171}
+    m_rotation: {x: 0, y: 239.41306, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -37.40779, y: 150.93271, z: 195.21709}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 96.86524
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -46.559906, y: 148.7297, z: 189.21655}
+    m_rotation: {x: 0, y: 225.22774, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -46.559895, y: 148.71466, z: 189.21657}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 145.93295
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -52.89206, y: 146.76108, z: 179.66473}
+    m_rotation: {x: 0, y: 203.3466, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -52.89206, y: 146.90262, z: 179.66472}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 136.85023
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -56.587036, y: 144.69339, z: 170.57526}
+    m_rotation: {x: 0, y: 205.9942, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -56.587025, y: 144.70059, z: 170.57526}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 272.49728
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -61.25708, y: 140.31964, z: 162.09357}
+    m_rotation: {x: 0, y: 210.51134, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -61.257076, y: 140.28961, z: 162.09358}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 50.83068
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -66.187805, y: 134.70767, z: 152.91138}
+    m_rotation: {x: 0, y: 204.37709, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -66.187805, y: 134.86562, z: 152.9114}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 85.334755
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -69.8902, y: 130.95218, z: 143.14941}
+    m_rotation: {x: 0, y: 197.98434, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -69.8902, y: 130.73611, z: 143.14941}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 323.2382
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -73.14429, y: 128.32764, z: 134.34692}
+    m_rotation: {x: 0, y: 206.65689, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -73.1443, y: 128.35619, z: 134.34695}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 0.8907267
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -78.328735, y: 126.40024, z: 127.3125}
+    m_rotation: {x: 0, y: 224.18164, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -78.328735, y: 126.39451, z: 127.31247}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 280.27728
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -85.130646, y: 124.42288, z: 121.46857}
+    m_rotation: {x: 0, y: 238.63019, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -85.13064, y: 124.402756, z: 121.46856}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 76.49403
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -92.82504, y: 123.11789, z: 119.09149}
+    m_rotation: {x: 0, y: 265.37155, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -92.82505, y: 123.11744, z: 119.091484}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 167.6711
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -59.994812, y: 132.78235, z: 139.56378}
+    m_rotation: {x: 0, y: 120.97686, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -59.99481, y: 132.96317, z: 139.56378}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 8.580748
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -51.525574, y: 132.91855, z: 134.38135}
+    m_rotation: {x: 0, y: 121.99166, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -51.525574, y: 132.95175, z: 134.38138}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 249.71104
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -42.927185, y: 133.45285, z: 129.41205}
+    m_rotation: {x: 0, y: 122.816216, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -42.927193, y: 133.5159, z: 129.41203}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 186.65697
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -39.72766, y: 132.67252, z: 123.119385}
+    m_rotation: {x: 0, y: 163.73126, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -39.727654, y: 132.70778, z: 123.11936}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 47.601242
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -37.543335, y: 131.36237, z: 113.62805}
+    m_rotation: {x: 0, y: 167.44525, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -37.543343, y: 131.38737, z: 113.62807}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 346.42703
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -36.148254, y: 130.1164, z: 104.23523}
+    m_rotation: {x: 0, y: 174.5561, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -36.14824, y: 130.30844, z: 104.23524}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 150.68616
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -27.946198, y: 129.59454, z: 94.693054}
+    m_rotation: {x: 0, y: 128.0491, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -27.946205, y: 129.64867, z: 94.69307}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 129.0773
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -20.54364, y: 129.22137, z: 88.457825}
+    m_rotation: {x: 0, y: 132.61208, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -20.543627, y: 129.24922, z: 88.45781}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 262.1795
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -13.618256, y: 129.18802, z: 81.61633}
+    m_rotation: {x: 0, y: 136.38824, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -13.618251, y: 129.20508, z: 81.616356}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 229.36195
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -7.5257874, y: 129.98587, z: 74.388916}
+    m_rotation: {x: 0, y: 144.11624, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -7.52579, y: 129.54044, z: 74.38889}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 342.05063
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -28.73703, y: 130.17126, z: 100.44989}
+    m_rotation: {x: 0, y: 43.85668, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -28.737026, y: 130.21744, z: 100.44988}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 45.982124
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -21.935303, y: 132.18314, z: 106.91791}
+    m_rotation: {x: 0, y: 52.521667, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -21.9353, y: 132.21333, z: 106.917915}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 137.51736
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -14.183197, y: 133.7225, z: 111.0376}
+    m_rotation: {x: 0, y: 69.51941, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -14.183185, y: 133.76788, z: 111.03761}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 321.95377
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: -6.4562073, y: 134.54184, z: 111.91565}
+    m_rotation: {x: 0, y: 99.7317, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: -6.4562025, y: 134.60349, z: 111.91566}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 180.67792
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 2.5440674, y: 134.37149, z: 109.578125}
+    m_rotation: {x: 0, y: 109.67141, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 2.544064, y: 134.4805, z: 109.57811}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 343.06042
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 11.078125, y: 133.89001, z: 105.53125}
+    m_rotation: {x: 0, y: 117.487434, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 11.078136, y: 133.95518, z: 105.53128}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 50.0997
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 21.36023, y: 133.30054, z: 101.58905}
+    m_rotation: {x: 0, y: 102.484604, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 21.360205, y: 133.34459, z: 101.58906}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 207.15407
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 33.883057, y: 133.04147, z: 103.09985}
+    m_rotation: {x: 0, y: 59.47612, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 33.883087, y: 133.1152, z: 103.09987}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 280.6824
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 42.87268, y: 133.31693, z: 108.79645}
+    m_rotation: {x: 0, y: 49.9952, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 42.872696, y: 133.35713, z: 108.796425}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 231.90407
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 50.475464, y: 134.11316, z: 112.91992}
+    m_rotation: {x: 0, y: 68.33588, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 50.475456, y: 134.1565, z: 112.919945}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 10.643194
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 59.613037, y: 135.0711, z: 116.178406}
+    m_rotation: {x: 0, y: 72.58173, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 59.61302, y: 135.15549, z: 116.178406}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 1.7213764
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 69.093506, y: 136.27002, z: 118.92627}
+    m_rotation: {x: 0, y: 74.42813, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 69.09352, y: 136.25789, z: 118.92627}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 206.86194
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 119.10797, y: 165.4885, z: 223.44354}
+    m_rotation: {x: 0, y: 48.56359, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 119.10798, y: 165.49818, z: 223.44353}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 202.54742
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 126.57733, y: 167.01825, z: 229.68945}
+    m_rotation: {x: 0, y: 52.309097, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 126.57735, y: 166.88715, z: 229.68947}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 267.18716
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 134.43774, y: 168.21204, z: 235.08496}
+    m_rotation: {x: 0, y: 58.904926, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 134.43774, y: 168.158, z: 235.08493}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 337.10303
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 142.91754, y: 169.2522, z: 239.62323}
+    m_rotation: {x: 0, y: 64.324524, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 142.91756, y: 169.28647, z: 239.62325}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 93.38807
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 149.62598, y: 169.8631, z: 241.62872}
+    m_rotation: {x: 0, y: 104.8144, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 149.62599, y: 169.97437, z: 241.62871}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 26.194113
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 158.42511, y: 169.63559, z: 238.07678}
+    m_rotation: {x: 0, y: 112.02203, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 158.4251, y: 169.67818, z: 238.07675}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 183.51213
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 166.83008, y: 169.30255, z: 233.39087}
+    m_rotation: {x: 0, y: 117.26846, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 166.83005, y: 169.3695, z: 233.39084}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 141.75888
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 178.79065, y: 169.74915, z: 231.03033}
+    m_rotation: {x: 0, y: 83.31842, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 178.79066, y: 169.76433, z: 231.03033}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 34.997803
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 189.18988, y: 171.0119, z: 234.41089}
+    m_rotation: {x: 0, y: 69.34853, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 189.1899, y: 171.04971, z: 234.41089}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 161.43765
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 195.28851, y: 171.83337, z: 234.3482}
+    m_rotation: {x: 0, y: 121.25489, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 195.2885, y: 171.9146, z: 234.34822}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 170.75371
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 197.77594, y: 171.21487, z: 229.2395}
+    m_rotation: {x: 0, y: 178.35721, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 197.77592, y: 171.24318, z: 229.23949}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 42.690994
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 198.50464, y: 169.89664, z: 218.34229}
+    m_rotation: {x: 0, y: 164.55806, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 198.50467, y: 169.87991, z: 218.3423}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 273.82993
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 205.71289, y: 168.73477, z: 208.25867}
+    m_rotation: {x: 0, y: 126.71639, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 205.71289, y: 168.7445, z: 208.25867}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 322.02847
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 211.81622, y: 167.47736, z: 202.53552}
+    m_rotation: {x: 0, y: 148.96582, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 211.81621, y: 167.46617, z: 202.53555}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 121.67971
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 215.12762, y: 165.5682, z: 194.35242}
+    m_rotation: {x: 0, y: 165.23854, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 215.12761, y: 165.5627, z: 194.35243}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 127.35948
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 218.34521, y: 163.86215, z: 184.16248}
+    m_rotation: {x: 0, y: 155.19624, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 218.3452, y: 163.85602, z: 184.1625}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 328.28577
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 221.16522, y: 162.76172, z: 176.67633}
+    m_rotation: {x: 0, y: 182.50955, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 221.16522, y: 162.74808, z: 176.67633}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 174.5166
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 218.883, y: 161.34357, z: 168.72827}
+    m_rotation: {x: 0, y: 206.6449, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 218.883, y: 161.33331, z: 168.72826}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 205.84825
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 213.73425, y: 160.00412, z: 160.83752}
+    m_rotation: {x: 0, y: 214.80183, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 213.73428, y: 159.99535, z: 160.83755}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 233.53491
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 208.12274, y: 158.81274, z: 153.22668}
+    m_rotation: {x: 0, y: 222.4605, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 208.12273, y: 158.80312, z: 153.2267}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 41.92853
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 201.05359, y: 157.66776, z: 146.92297}
+    m_rotation: {x: 0, y: 229.90958, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 201.05357, y: 157.6615, z: 146.92299}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 167.2775
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 193.56055, y: 156.33167, z: 140.53253}
+    m_rotation: {x: 0, y: 232.07101, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 193.56056, y: 156.32729, z: 140.53252}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 236.0758
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 185.90869, y: 155.06973, z: 136.14697}
+    m_rotation: {x: 0, y: 248.49829, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 185.9087, y: 155.0649, z: 136.147}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 192.10371
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 180.54272, y: 154.82193, z: 137.91437}
+    m_rotation: {x: 0, y: 301.4055, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 180.54271, y: 154.80511, z: 137.91437}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 316.54123
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 166.83728, y: 153.73529, z: 134.37158}
+    m_rotation: {x: 0, y: 224.39381, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 166.83728, y: 153.7266, z: 134.37157}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 30.642975
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 160.6427, y: 152.11209, z: 127.5542}
+    m_rotation: {x: 0, y: 235.32281, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 160.64273, y: 152.07446, z: 127.5542}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 301.73172
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 153.14435, y: 150.15256, z: 125.4538}
+    m_rotation: {x: 0, y: 265.8983, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 153.14436, y: 150.08633, z: 125.453804}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 254.23709
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 144.42944, y: 148.20361, z: 126.46564}
+    m_rotation: {x: 0, y: 282.9496, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 144.42941, y: 148.10323, z: 126.46562}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 319.77982
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 134.6289, y: 146.46054, z: 128.64703}
+    m_rotation: {x: 0, y: 282.3654, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 134.6289, y: 146.31375, z: 128.64703}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 267.392
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 125.35834, y: 144.4065, z: 131.0824}
+    m_rotation: {x: 0, y: 288.24554, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 125.35832, y: 144.28894, z: 131.08238}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 156.05386
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 116.563965, y: 143.3469, z: 134.67322}
+    m_rotation: {x: 0, y: 295.32825, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 116.56394, y: 143.1205, z: 134.67319}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 212.89767
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 108.2038, y: 143.43716, z: 139.14392}
+    m_rotation: {x: 0, y: 302.67603, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 108.20379, y: 143.23146, z: 139.14395}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 355.0653
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
+  - m_location: {x: 100.928955, y: 145.08481, z: 144.92883}
+    m_rotation: {x: 0, y: 312.5967, z: 0}
+    m_normal: {x: 0, y: 1, z: 0}
+    m_parent: {fileID: 0}
+    m_ground: {fileID: 0}
+    m_target: {fileID: 0}
+    m_alignEntitiesToRotation: 1
+    m_conformEntitiesToSlope: 0
+    m_snapEntitiesToGround: 1
+    m_resourceEntities:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    m_generated: 1
+    m_isActive: 1
+    m_spawnedLocation: {x: 100.928925, y: 144.96867, z: 144.92886}
+    m_spawnDepth: 0
+    m_spawnRange: 1
+    m_throwDistance: 0
+    m_parentScale: {x: 1, y: 1, z: 1}
+    m_randomRotationY: 293.42664
+    m_parentRotationY: 0
+    m_instancesToSpawn: 1
+    m_instancesSpawned: 1
+    m_spawnerType: 1
+    m_milliseconds: 1000
+    m_canSpawn: 1
