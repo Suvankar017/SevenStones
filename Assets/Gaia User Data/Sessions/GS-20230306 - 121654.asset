@@ -2662,6 +2662,73 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 10:34:54
+    scriptableObjectAssetGUID: caae389f80ef5d943934f96885b30dd1
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 10:43:18
+    scriptableObjectAssetGUID: 15591a6b6703f9c428474eae7f30b650
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 10:45:38
+    scriptableObjectAssetGUID: 0d6ff4e876ead2c4db55f43704808b4c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 10:47:15
+    scriptableObjectAssetGUID: e6213dba66007e24e957988dc33b9e9c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Desert Texture Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 11:03:26
+    scriptableObjectAssetGUID: 8c3453f260df2094bb8bc0984192eee7
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 11:54:08
+    scriptableObjectAssetGUID: 01f0c00670b814a418e3c320cb18c134
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
@@ -2688,18 +2755,15 @@ MonoBehaviour:
     recalculate: 0
     min: 98.032745
     max: 438.88168
+  - guid: 44a8bca9b3dd84b4e8c1e4222921e5b8
+    isWorldmap: 0
+    recalculate: 0
+    min: 98.032745
+    max: 438.88168
   - guid: Worldmap
     isWorldmap: 1
     recalculate: 0
     min: 0
     max: 0
-  m_bakedMaskCacheEntries:
-  - fileName: Ruins_LayerGameObject_3600_0
-    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
-    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
-    texture: {fileID: 0}
-  - fileName: Ruins_LayerGameObject_3584_0
-    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3584_0
-    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3584_0
-    texture: {fileID: 0}
+  m_bakedMaskCacheEntries: []
   m_worldBiomeMaskSettings: {fileID: 0}
