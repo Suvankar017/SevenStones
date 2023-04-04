@@ -2741,6 +2741,17 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (6)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 04-04-2023 18:13:39
+    scriptableObjectAssetGUID: 8ace01ad3cf670f428bb8608478a3dbc
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
