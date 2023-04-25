@@ -2775,6 +2775,105 @@ MonoBehaviour:
     sessionPlaybackState: 1
     m_terrainsFoldedOut: 0
     m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 21:11:13
+    scriptableObjectAssetGUID: 8c8ca97c5cd3b5a4eb265a8a8966a585
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 21:12:42
+    scriptableObjectAssetGUID: 2f6524d6e1881df43b15d59c7ec686ed
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 21:14:33
+    scriptableObjectAssetGUID: 355b88fd0a7846a4ab5cf52e69110c39
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 21:15:34
+    scriptableObjectAssetGUID: 325322f8dec697d418020d002b578757
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 21:18:04
+    scriptableObjectAssetGUID: a1c85b4271820fa43afc3fb1edc13606
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 22:19:32
+    scriptableObjectAssetGUID: e6a2eec021c70764a8bd5d9fccde4523
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 22:21:06
+    scriptableObjectAssetGUID: c7f0021f9f0a97f4a8ea6b9e7ebca86a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 22:22:09
+    scriptableObjectAssetGUID: 349ea8ae918f8aa43bf1c0ca6745860c
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - DeadGrass Spawner(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Ruins
+    m_operationDateTime: 25-04-2023 22:27:05
+    scriptableObjectAssetGUID: db20ed79b69f7a14daae63aa90375c2a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
   m_terrainMinMaxCache:
   - guid: 4ccb802fb14ee8d43939d864303df8eb
     isWorldmap: 0
@@ -2811,5 +2910,9 @@ MonoBehaviour:
     recalculate: 0
     min: 0
     max: 0
-  m_bakedMaskCacheEntries: []
+  m_bakedMaskCacheEntries:
+  - fileName: Ruins_LayerGameObject_3600_0
+    assetPath: Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
+    fullPath: G:/Programs/Unity/SevenStones/Assets/Procedural Worlds/Gaia/TerrainCollisionData/Ruins/Ruins_LayerGameObject_3600_0
+    texture: {fileID: 0}
   m_worldBiomeMaskSettings: {fileID: 0}
