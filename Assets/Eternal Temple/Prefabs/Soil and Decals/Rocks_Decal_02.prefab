@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 5422321652757943063}
   - component: {fileID: 1646800956731869833}
   - component: {fileID: 966919413123275204}
-  - component: {fileID: 1430174505325826642}
   m_Layer: 0
   m_Name: Rocks_Decal_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 87
   m_IsActive: 1
 --- !u!4 &5422321652757943063
 Transform:
@@ -84,23 +83,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &1430174505325826642
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 293308892892344219}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b1d9c85c673a2924c87dc885ec3f5b9a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

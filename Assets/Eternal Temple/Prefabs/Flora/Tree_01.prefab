@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 4507863306225209282}
   - component: {fileID: 8511583358332733819}
   - component: {fileID: 1362989233769545404}
-  - component: {fileID: 1778010583859877387}
   m_Layer: 0
   m_Name: Tree_01_Trunk_Top_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4507863306225209282
 Transform:
@@ -84,18 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1778010583859877387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233456681539008719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1437025388131615126
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,13 +94,12 @@ GameObject:
   - component: {fileID: 3857083786414375555}
   - component: {fileID: 574790849612210531}
   - component: {fileID: 8513983020735552495}
-  - component: {fileID: 1225816691708677747}
   m_Layer: 0
   m_Name: Tree_01_Leaves_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3857083786414375555
 Transform:
@@ -180,18 +166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1225816691708677747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437025388131615126}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2203877113689859984
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,13 +177,12 @@ GameObject:
   - component: {fileID: 7841479073668543892}
   - component: {fileID: 6376683249933471577}
   - component: {fileID: 1000064664491156798}
-  - component: {fileID: 3136117215573817043}
   m_Layer: 0
   m_Name: Tree_01_Leaves_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7841479073668543892
 Transform:
@@ -276,18 +249,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3136117215573817043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2203877113689859984}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3117984779845667800
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,13 +260,12 @@ GameObject:
   - component: {fileID: 2362498395051513097}
   - component: {fileID: 8235022769676705865}
   - component: {fileID: 2110189423166798116}
-  - component: {fileID: 1673013140293173521}
   m_Layer: 0
   m_Name: Tree_01_Trunk_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2362498395051513097
 Transform:
@@ -372,18 +332,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1673013140293173521
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3117984779845667800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3762363434608935830
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,13 +343,12 @@ GameObject:
   - component: {fileID: 3065983849521196184}
   - component: {fileID: 2139540522463697047}
   - component: {fileID: 3945878532326774450}
-  - component: {fileID: 7128780119200918357}
   m_Layer: 0
   m_Name: Tree_01_Trunk_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3065983849521196184
 Transform:
@@ -468,18 +415,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7128780119200918357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3762363434608935830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4371382746932448403
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,13 +426,12 @@ GameObject:
   - component: {fileID: 3948408182789556509}
   - component: {fileID: 8432302934168919664}
   - component: {fileID: 5709442351098956106}
-  - component: {fileID: 6627430519037162784}
   m_Layer: 0
   m_Name: Tree_01_Trunk_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3948408182789556509
 Transform:
@@ -564,18 +498,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6627430519037162784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4371382746932448403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4735697044499012087
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +509,6 @@ GameObject:
   - component: {fileID: 7514151299829696684}
   - component: {fileID: 2577419376926757994}
   - component: {fileID: 3168601765610613183}
-  - component: {fileID: 1445339035891558429}
   m_Layer: 0
   m_Name: Tree_01
   m_TagString: Untagged
@@ -668,20 +589,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.3003616, y: 3.3067799, z: 4.8787556}
   m_Center: {x: 0.8705988, y: 5.2757587, z: 0.30999756}
---- !u!114 &1445339035891558429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4735697044499012087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ea103fbdacf15142879fa7ca5cd4a5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hideable: 1
-  disableParentGeo: 0
 --- !u!1 &7232085360171262708
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,13 +600,12 @@ GameObject:
   - component: {fileID: 4405600704277005126}
   - component: {fileID: 2363050652955865315}
   - component: {fileID: 2306932368247031793}
-  - component: {fileID: 6049855911240016400}
   m_Layer: 0
   m_Name: Tree_01_Leaves_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4405600704277005126
 Transform:
@@ -766,18 +672,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6049855911240016400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7232085360171262708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7648571980466283614
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,13 +683,12 @@ GameObject:
   - component: {fileID: 4106992747032224966}
   - component: {fileID: 463241216844384233}
   - component: {fileID: 6963891030978493753}
-  - component: {fileID: 8943790850567622913}
   m_Layer: 0
   m_Name: Tree_01_Trunk_Bottom_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4106992747032224966
 Transform:
@@ -862,18 +755,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8943790850567622913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7648571980466283614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7892896253503322525
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,13 +766,12 @@ GameObject:
   - component: {fileID: 549760028420162451}
   - component: {fileID: 7027581156564105512}
   - component: {fileID: 939648208784075512}
-  - component: {fileID: 1469898864802457767}
   m_Layer: 0
   m_Name: Tree_01_Leaves_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &549760028420162451
 Transform:
@@ -958,15 +838,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1469898864802457767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7892896253503322525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

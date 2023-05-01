@@ -203,7 +203,6 @@ GameObject:
   - component: {fileID: 6888246330729299436}
   - component: {fileID: 5693687779636673004}
   - component: {fileID: 2302036664312634025}
-  - component: {fileID: 3132880286543269919}
   m_Layer: 0
   m_Name: Arch_Alley_Rounded_07_Ivy
   m_TagString: Untagged
@@ -276,18 +275,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3132880286543269919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4090529951914450725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d17c218b125a65428444681850842c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7735307684819690748
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,7 +382,6 @@ GameObject:
   - component: {fileID: 1340465365180446468}
   - component: {fileID: 6542203300888355012}
   - component: {fileID: 2696979845702605832}
-  - component: {fileID: 3845237601110894017}
   m_Layer: 0
   m_Name: Arch_Alley_Rounded_07
   m_TagString: Untagged
@@ -463,17 +449,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 08ac36a2ba5ddd048876221dbec0db81, type: 3}
---- !u!114 &3845237601110894017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8398494715639387051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ea103fbdacf15142879fa7ca5cd4a5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hideable: 1
-  disableParentGeo: 0

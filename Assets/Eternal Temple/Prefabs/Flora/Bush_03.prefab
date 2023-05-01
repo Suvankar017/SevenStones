@@ -10,14 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4908828744720905763}
   - component: {fileID: 485466870605396008}
-  - component: {fileID: 5570034964442037037}
-  - component: {fileID: 1261346570346866917}
   m_Layer: 0
   m_Name: Bush_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 87
   m_IsActive: 1
 --- !u!4 &4908828744720905763
 Transform:
@@ -59,32 +57,6 @@ LODGroup:
     renderers:
     - renderer: {fileID: 8816481268123419946}
   m_Enabled: 1
---- !u!114 &5570034964442037037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2595017009455237276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfd17836f26cd7740a3dac9e264f4f02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hideable: 1
---- !u!65 &1261346570346866917
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2595017009455237276}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: -0.06975897, y: 0.9813534, z: -0.04443169}
 --- !u!1 &6777044491724369519
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,7 +73,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 87
   m_IsActive: 1
 --- !u!4 &691215686194818942
 Transform:
@@ -184,7 +156,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 87
   m_IsActive: 1
 --- !u!4 &1096003421765448141
 Transform:
